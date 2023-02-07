@@ -8,10 +8,12 @@ ros2 launch irobot_create_gazebo_bringup create3_gazebo_office.launch.py
 
 # Run teleop:
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
-ros2 launch create3_teleop teleop_joystick_launch.py
 
 # Run slam:
 ros2 launch slam online_async_launch.launch.py
 
 # Run navigation:
-ros2 launch nav2_bringup navigation_launch.py params_file:=src/navigation/config/nav2_params.yaml
+ros2 launch navigation rviz_launch.py
+ros2 launch navigation bringup_launch.py params_file:=src/navigation/config/nav2_params.yaml map:="/home/splouisliu/repos/bloomba/bloomba_ws/maps/map_1675446279.yaml"
+
+ros2 run navigation navigator
