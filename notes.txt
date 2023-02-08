@@ -37,6 +37,9 @@ ros2 launch bloomba_bringup rviz_launch.py
 # Run navigation:
 ros2 launch bloomba_navigation bringup_launch.py map:="maps/map_office_sim.yaml"
 
+ros2 launch bloomba bringup_launch.py map:="maps/map_myhal_live.yaml"
+ros2 launch bloomba_navigation bringup_launch.py map:="map_myhal_live.yaml"
+
 
 ~~~~~ Helpers ~~~~~
 
