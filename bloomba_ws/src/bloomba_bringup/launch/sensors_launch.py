@@ -13,7 +13,7 @@ def generate_launch_description():
         Node(
             package='rplidar_ros',
             parameters=[
-                get_package_share_directory("create3_lidar") + '/config/rplidar_node.yaml'
+                get_package_share_directory("bloomba_bringup") + '/config/rplidar_node.yaml'
                 ],
             executable='rplidar_composition'
         ),
