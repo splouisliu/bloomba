@@ -13,7 +13,9 @@ from nav2_common.launch import RewrittenYaml
 
 """
 Launches the following:
- - Sensors
+ - Gazebo simulation
+ - Scan filters
+ - Rviz
  - Nav2 components:
     - Localization
     - Navigation
@@ -63,7 +65,7 @@ def generate_launch_description():
 
     declare_map_yaml_cmd = DeclareLaunchArgument(
         'map',
-        default_value='maps/map_office_live.yaml',
+        default_value='maps/map_office_sim.yaml',
         description='Full path to map yaml file to load')
 
     declare_use_sim_time_cmd = DeclareLaunchArgument(
@@ -105,8 +107,24 @@ def generate_launch_description():
 
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource([os.path.join(
+                get_package_share_directory('irobot_create_gazebo_bringup'), 'launch'),
+                '/create3_gazebo_office.launch.py']),
+            launch_arguments={
+                'use_rviz': 'false',
+                'spawn_dock': 'false',
+            }.items(),
+        ),
+
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource([os.path.join(
                 get_package_share_directory('bloomba_bringup'), 'launch'),
-                '/sensors_launch.py'])
+                '/laser_filters_launch.py'])
+        ),
+
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource([os.path.join(
+                get_package_share_directory('bloomba_bringup'), 'launch'),
+                '/rviz_launch.py'])
         ),
 
         IncludeLaunchDescription(
