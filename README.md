@@ -19,7 +19,7 @@ colcon build --symlink-install
 
 Build (on live robot):
 ```
-rosdep install --from-path src -yi
+rosdep install --from-path src/bloomba_bringup src/bloomba_navigation src/bloomba_slam -yi
 colcon build --symlink-install --packages-select bloomba_bringup bloomba_navigation bloomba_slam
 ```
 
