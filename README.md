@@ -53,6 +53,9 @@ Run sim (on PC):
 
 `ros2 launch irobot_create_gazebo_bringup create3_gazebo_office.launch.py use_rviz:=false spawn_dock:=false`
 
+Run lidar (on live robot):
+`ros2 launch bloomba_bringup sensors_launch.py`
+
 Run laser filters:
 
 `ros2 launch bloomba_bringup laser_filters_launch.py`
