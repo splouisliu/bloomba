@@ -9,7 +9,7 @@ from ament_index_python.packages import get_package_share_directory
 def generate_launch_description():
     return LaunchDescription([
         Node(package='tf2_ros', executable='static_transform_publisher',
-            arguments=['-0.012', '0', '0.144', '0', '0', '0', 'base_footprint', 'laser_frame']),
+            arguments=['00.11996', '-0.00653', '0', '1.571', '0', '0', 'base_footprint', 'laser_frame']),
         Node(
             package='rplidar_ros',
             parameters=[
