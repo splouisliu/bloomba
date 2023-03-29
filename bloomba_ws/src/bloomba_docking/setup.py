@@ -1,7 +1,8 @@
 from setuptools import setup
 import os
 from glob import glob
-package_name = 'plant_docking'
+
+package_name = 'bloomba_docking'
 
 setup(
     name=package_name,
@@ -12,7 +13,7 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name, 'launch'), glob(os.path.join('launch', '*.launch.py'))),
-
+        (os.path.join('share', package_name, 'launch'), glob(os.path.join('launch', '*.launch.yml'))),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -23,9 +24,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-                'plant_tf2_broadcaster = plant_docking.plant_docking_talker:main',
-                'plant_docking_listener = plant_docking.plant_docking_listen:main',
-                'plant_tf2_listener = plant_docking.plant_docking_tf_listen:main',
+                'plant_tf2_broadcaster = bloomba_docking.plant_docking_talker:main',
+                'plant_docking_listener = bloomba_docking.plant_docking_listen:main',
+                'plant_tf2_listener = bloomba_docking.plant_docking_tf_listen:main',
         ],
     },
 )

@@ -20,7 +20,7 @@ def generate_launch_description():
     return LaunchDescription([
         
         Node(
-            package='plant_docking',
+            package='bloomba_docking',
             executable='plant_tf2_broadcaster',
             name='broadcaster1',
             parameters=[
@@ -32,7 +32,7 @@ def generate_launch_description():
             description='Target frame name.'
         ),
         # Node(
-        #     package='plant_docking',
+        #     package='bloomba_docking',
         #     executable='turtle_tf2_broadcaster',
         #     name='broadcaster2',
         #     parameters=[
@@ -40,7 +40,7 @@ def generate_launch_description():
         #     ]
         # ),
         Node(
-            package='plant_docking',
+            package='bloomba_docking',
             executable='plant_tf2_listener',
             name='listener',
             parameters=[
