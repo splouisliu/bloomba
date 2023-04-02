@@ -24,8 +24,7 @@ class FrameListener(Node):
         
         self.tf_buffer = Buffer()
         self.tf_listener = TransformListener(self.tf_buffer, self)
-        self.publisher = self.create_publisher(Twist, 'create3/cmd_vel', 1) #TODO: USE THIS to publish velocities to the Create 3
-
+        self.publisher = self.create_publisher(Twist, '/cmd_vel', 1) #TODO: USE THIS to publish velocities to the Create 3
         #Calls on_timer() every 1 second
         self.timer = self.create_timer(0.5, self.tf_on_timer)
 
@@ -33,6 +32,7 @@ class FrameListener(Node):
     def tf_on_timer(self):
         from_frame_rel = self.target_frame
         to_frame_rel = 'plant_pot1'
+        found_plant_pot = false
         
         try:
             t = self.tf_buffer.lookup_transform( #search the buffer for transforms 
@@ -50,12 +50,57 @@ class FrameListener(Node):
             f'\n Corrected X pos: {correctedX} \n Corrected Y pos: {correctedY} \n Corrected Z pos: {correctedZ}\n') 
 
             #TODO: Find the yaw (phi) from a quaternion
-            
+            q_x = t.transform.rotation.x
+            q_y = t.transform.rotation.y
+            q_z = t.transform.rotation.z
+            q_w = t.transform.rotation.w
 
+            yaw = math.atan2(2.0*(q_y*q_z+q_w*q_x),q_w*q_w-q_x*q_x-q_y*q_y+q_z*q_z)
+            yaw_deg = yaw*180/math.pi
+
+            self.get_logger().info(
+            f'\n Yaw: {yaw_deg} \n') 
+            
+            
         except TransformException as ex:
             self.get_logger().info(
             f'Could not transform {to_frame_rel} to {from_frame_rel}: {ex}')
+
             return
+        
+        #Determining the velocities to publish 
+        #These are calculated every time the callback runs
+        msg = Twist()
+        scale_rotation_rate = 1.0
+
+        #Want angular speed to be constant until robot faces the tag
+        ## convert from quaternion to phi
+        #Want forward speed to be constant until robot is at a point 30 cm directly in front of the center of the tag 
+        #Remember that min sense distance of camera is 20 cm
+        ## z variable is forward distance, x variable is lateral distance.
+        ## find a point 30 cm directly in front of the center of the April Tag.
+        #Later, tell the watering arm to lower/raise up to plant pot height.
+
+        # yaw_ref = 180
+        # msg.angular.z = scale_rotation_rate * math.atan2(
+        #     t.transform.translation.z,
+        #     t.transform.translation.x)
+        
+        #(yaw_deg-yaw_ref)
+
+        # scale_forward_speed = 0.5
+        # msg.linear.x = scale_forward_speed * math.sqrt(
+        #     t.transform.translation.x ** 2 +
+        #     t.transform.translation.z ** 2)
+        
+        if t.transform.translation.z > 0.35:
+            msg.linear.x = 0.3
+
+        elif t.transform.translation.z < 0.30:
+            msg.linear.x = -0.3
+
+
+        self.publisher.publish(msg)
         
 
 
