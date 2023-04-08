@@ -1,0 +1,4 @@
+source;share/lake_harbour_office_gazebo/local_setup.bash
+source;share/lake_harbour_office_gazebo/local_setup.dsv
+source;share/lake_harbour_office_gazebo/local_setup.sh
+source;share/lake_harbour_office_gazebo/local_setup.zsh

@@ -1,0 +1,8 @@
+irobot_create_nodes::HazardsVectorPublisher;lib/libhazard_publisher_lib.so
+irobot_create_nodes::IrIntensityVectorPublisher;lib/libir_intensity_publisher_lib.so
+irobot_create_nodes::MotionControlNode;lib/libmotion_control_lib.so
+irobot_create_nodes::WheelsPublisher;lib/libwheel_status_publisher_lib.so
+irobot_create_nodes::RobotState;lib/librobot_state_lib.so
+irobot_create_nodes::UIMgr;lib/libui_mgr_lib.so
+irobot_create_nodes::MockPublisher;lib/libmock_publisher_lib.so
+irobot_create_nodes::KidnapEstimator;lib/libkidnap_estimator_publisher_lib.so

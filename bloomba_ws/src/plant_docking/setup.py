@@ -26,6 +26,7 @@ setup(
                 'plant_tf2_broadcaster = plant_docking.plant_docking_talker:main',
                 'plant_docking_listener = plant_docking.plant_docking_listen:main',
                 'plant_tf2_listener = plant_docking.plant_docking_tf_listen:main',
+                'watering_arm = plant_docking.arm:main'
         ],
     },
 )

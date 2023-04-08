@@ -1,0 +1,81 @@
+[35m[1mConsolidate compiler generated dependencies of target gazebo_ros_create_helpers[0m
+[ 10%] Built target gazebo_ros_create_helpers
+[35m[1mConsolidate compiler generated dependencies of target gazebo_ros_create_bumper[0m
+[ 20%] Built target gazebo_ros_create_bumper
+[ 25%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_imu.dir/src/gazebo_ros_imu.cpp.o[0m
+[ 30%] [32m[1mLinking CXX shared library libgazebo_ros_create_imu.so[0m
+[ 30%] Built target gazebo_ros_create_imu
+[ 35%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_ir_intensity_sensor.dir/src/gazebo_ros_ir_intensity_sensor.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_optical_mouse.dir/src/gazebo_ros_optical_mouse.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_docking_status.dir/src/gazebo_ros_docking_status.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_cliff_sensor.dir/src/gazebo_ros_cliff_sensor.cpp.o[0m
+[ 55%] [32m[1mLinking CXX shared library libgazebo_ros_create_ir_intensity_sensor.so[0m
+[ 55%] Built target gazebo_ros_create_ir_intensity_sensor
+[ 60%] [32m[1mLinking CXX shared library libgazebo_ros_create_optical_mouse.so[0m
+[ 60%] Built target gazebo_ros_create_optical_mouse
+[ 65%] [32m[1mLinking CXX shared library libgazebo_ros_create_docking_status.so[0m
+[ 70%] [32m[1mLinking CXX shared library libgazebo_ros_create_cliff_sensor.so[0m
+[ 70%] Built target gazebo_ros_create_docking_status
+[ 70%] Built target gazebo_ros_create_cliff_sensor
+[ 75%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_wheel_drop.dir/src/gazebo_ros_wheel_drop.cpp.o[0m
+[ 80%] [32m[1mLinking CXX shared library libgazebo_ros_create_wheel_drop.so[0m
+[ 80%] Built target gazebo_ros_create_wheel_drop
+[ 85%] [32mBuilding CXX object CMakeFiles/docking_manager.dir/src/docking_manager.cpp.o[0m
+[ 90%] [32m[1mLinking CXX shared library libdocking_manager.so[0m
+[ 90%] Built target docking_manager
+[ 95%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_ir_opcode.dir/src/gazebo_ros_ir_opcode.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libgazebo_ros_create_ir_opcode.so[0m
+[100%] Built target gazebo_ros_create_ir_opcode
+-- Install configuration: ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/environment/library_path.sh
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/environment/library_path.dsv
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/include
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_docking_status.hpp
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_cliff_sensor.hpp
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/docking_manager.hpp
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_ir_opcode.hpp
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_optical_mouse.hpp
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_bumper.hpp
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_imu.hpp
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_helpers.hpp
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_wheel_drop.hpp
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/include/irobot_create_gazebo_plugins/gazebo_ros_ir_intensity_sensor.hpp
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_bumper.so
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_bumper.so" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_cliff_sensor.so
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_cliff_sensor.so" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_docking_status.so
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_docking_status.so" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_helpers.so
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_helpers.so" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_imu.so
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_imu.so" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_ir_intensity_sensor.so
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_ir_intensity_sensor.so" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_optical_mouse.so
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_optical_mouse.so" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_ir_opcode.so
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_ir_opcode.so" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/lib/libdocking_manager.so
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/lib/libdocking_manager.so" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_wheel_drop.so
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/lib/libgazebo_ros_create_wheel_drop.so" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/irobot_create_gazebo_plugins
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/irobot_create_gazebo_plugins
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/environment/ament_prefix_path.sh
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/environment/ament_prefix_path.dsv
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/environment/path.sh
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/environment/path.dsv
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/local_setup.bash
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/local_setup.sh
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/local_setup.zsh
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/local_setup.dsv
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/package.dsv
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/share/ament_index/resource_index/packages/irobot_create_gazebo_plugins
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/cmake/irobot_create_gazebo_pluginsConfig.cmake
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/cmake/irobot_create_gazebo_pluginsConfig-version.cmake
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins/share/irobot_create_gazebo_plugins/package.xml

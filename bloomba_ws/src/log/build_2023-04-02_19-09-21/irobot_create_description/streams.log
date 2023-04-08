@@ -1,0 +1,45 @@
+[0.035s] Invoking command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble /usr/bin/cmake --build /home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_description -- -j4 -l4
+[0.098s] Invoked command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble /usr/bin/cmake --build /home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_description -- -j4 -l4
+[0.144s] Invoking command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble /usr/bin/cmake --install /home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_description
+[0.162s] -- Install configuration: ""
+[0.164s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description//meshes
+[0.165s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description//meshes/dock
+[0.165s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description//meshes/dock/visual.dae
+[0.165s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description//meshes/bumper_visual.dae
+[0.165s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description//meshes/bumper_collision.dae
+[0.166s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description//meshes/body_visual.dae
+[0.166s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description//urdf
+[0.167s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description//urdf/wheel.urdf.xacro
+[0.167s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description//urdf/dock
+[0.167s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description//urdf/dock/ir_emitter.urdf.xacro
+[0.168s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description//urdf/dock/standard_dock.urdf.xacro
+[0.168s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description//urdf/wheel_with_wheeldrop.urdf.xacro
+[0.168s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description//urdf/common_properties.urdf.xacro
+[0.168s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description//urdf/button.urdf.xacro
+[0.169s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description//urdf/create3.urdf.xacro
+[0.169s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description//urdf/bumper.urdf.xacro
+[0.170s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description//urdf/caster.urdf.xacro
+[0.170s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description//urdf/sensors
+[0.170s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description//urdf/sensors/imu.urdf.xacro
+[0.170s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description//urdf/sensors/ir_intensity.urdf.xacro
+[0.171s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description//urdf/sensors/ir_opcode_receivers.urdf.xacro
+[0.171s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description//urdf/sensors/cliff_sensor.urdf.xacro
+[0.171s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description//urdf/sensors/lidar.urdf.xacro
+[0.171s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description//urdf/sensors/optical_mouse.urdf.xacro
+[0.171s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description//urdf/wheel_drop.urdf.xacro
+[0.171s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/ament_index/resource_index/package_run_dependencies/irobot_create_description
+[0.171s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/ament_index/resource_index/parent_prefix_path/irobot_create_description
+[0.172s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description/environment/ament_prefix_path.sh
+[0.172s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description/environment/ament_prefix_path.dsv
+[0.172s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description/environment/path.sh
+[0.172s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description/environment/path.dsv
+[0.172s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description/local_setup.bash
+[0.172s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description/local_setup.sh
+[0.172s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description/local_setup.zsh
+[0.173s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description/local_setup.dsv
+[0.173s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description/package.dsv
+[0.173s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/ament_index/resource_index/packages/irobot_create_description
+[0.173s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description/cmake/irobot_create_descriptionConfig.cmake
+[0.173s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description/cmake/irobot_create_descriptionConfig-version.cmake
+[0.173s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_description/share/irobot_create_description/package.xml
+[0.208s] Invoked command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble /usr/bin/cmake --install /home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_description

@@ -1,0 +1,83 @@
+[0.044s] Invoking command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble /usr/bin/cmake /home/zhanger/tmp/bloomba/bloomba_ws/src/bloomba_sim/irobot_create_common/irobot_create_toolbox -DCMAKE_INSTALL_PREFIX=/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox
+[0.236s] -- The C compiler identification is GNU 11.3.0
+[0.479s] -- The CXX compiler identification is GNU 11.3.0
+[0.515s] -- Detecting C compiler ABI info
+[0.647s] -- Detecting C compiler ABI info - done
+[0.661s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.662s] -- Detecting C compile features
+[0.664s] -- Detecting C compile features - done
+[0.678s] -- Detecting CXX compiler ABI info
+[0.848s] -- Detecting CXX compiler ABI info - done
+[0.866s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.868s] -- Detecting CXX compile features
+[0.869s] -- Detecting CXX compile features - done
+[0.906s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.407s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.719s] -- Looking for ignition-math6 -- found version 6.12.0
+[1.749s] -- Searching for dependencies of ignition-math6
+[1.757s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[1.963s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.983s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.006s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.059s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.120s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.340s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.352s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.695s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.823s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.045s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.109s] -- Looking for pthread.h
+[3.442s] -- Looking for pthread.h - found
+[3.443s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.797s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.802s] -- Found Threads: TRUE  
+[4.524s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.791s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.791s] -- Configured cppcheck include dirs: /home/zhanger/tmp/bloomba/bloomba_ws/src/bloomba_sim/irobot_create_common/irobot_create_toolbox/include
+[4.791s] -- Configured cppcheck exclude dirs and/or files: 
+[4.804s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.804s] -- Configured cpplint exclude dirs and/or files: 
+[4.806s] -- Added test 'lint_cmake' to check CMake code style
+[4.809s] -- Added test 'uncrustify' to check C / C++ code style
+[4.809s] -- Configured uncrustify additional arguments: 
+[4.810s] -- Added test 'xmllint' to check XML markup files
+[4.825s] -- Configuring done
+[4.851s] -- Generating done
+[4.854s] -- Build files have been written to: /home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_toolbox
+[5.431s] Invoked command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble /usr/bin/cmake /home/zhanger/tmp/bloomba/bloomba_ws/src/bloomba_sim/irobot_create_common/irobot_create_toolbox -DCMAKE_INSTALL_PREFIX=/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox
+[5.432s] Invoking command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble /usr/bin/cmake --build /home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_toolbox -- -j4 -l4
+[5.618s] [ 50%] [32mBuilding CXX object CMakeFiles/irobot_create_toolbox.dir/src/polar_coordinates.cpp.o[0m
+[12.776s] [100%] [32m[1mLinking CXX shared library libirobot_create_toolbox.so[0m
+[13.056s] [100%] Built target irobot_create_toolbox
+[13.080s] Invoked command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble /usr/bin/cmake --build /home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_toolbox -- -j4 -l4
+[13.139s] Invoking command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble /usr/bin/cmake --install /home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_toolbox
+[13.149s] -- Install configuration: ""
+[13.150s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/lib/libirobot_create_toolbox.so
+[13.152s] -- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/lib/libirobot_create_toolbox.so" to ""
+[13.152s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/include
+[13.152s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/include/irobot_create_toolbox
+[13.153s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/include/irobot_create_toolbox/polar_coordinates.hpp
+[13.153s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/include/irobot_create_toolbox/math.hpp
+[13.153s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/include/irobot_create_toolbox/sensors
+[13.153s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/include/irobot_create_toolbox/sensors/bumpers.hpp
+[13.154s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/library_path.sh
+[13.154s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/library_path.dsv
+[13.155s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/share/ament_index/resource_index/package_run_dependencies/irobot_create_toolbox
+[13.155s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/share/ament_index/resource_index/parent_prefix_path/irobot_create_toolbox
+[13.155s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/ament_prefix_path.sh
+[13.155s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/ament_prefix_path.dsv
+[13.156s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/path.sh
+[13.156s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/path.dsv
+[13.156s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.bash
+[13.156s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.sh
+[13.156s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.zsh
+[13.157s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.dsv
+[13.157s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/share/irobot_create_toolbox/package.dsv
+[13.157s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/share/ament_index/resource_index/packages/irobot_create_toolbox
+[13.157s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.157s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+[13.158s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.158s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/irobot_create_toolboxConfig.cmake
+[13.158s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/irobot_create_toolboxConfig-version.cmake
+[13.158s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/share/irobot_create_toolbox/package.xml
+[13.164s] Invoked command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble /usr/bin/cmake --install /home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_toolbox

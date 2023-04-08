@@ -1,0 +1,282 @@
+[0.035s] Invoking command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble /usr/bin/cmake /home/zhanger/tmp/bloomba/bloomba_ws/src/apriltag_msgs -DCMAKE_INSTALL_PREFIX=/home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs
+[0.202s] -- The C compiler identification is GNU 11.3.0
+[0.456s] -- The CXX compiler identification is GNU 11.3.0
+[0.492s] -- Detecting C compiler ABI info
+[0.714s] -- Detecting C compiler ABI info - done
+[0.732s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.733s] -- Detecting C compile features
+[0.734s] -- Detecting C compile features - done
+[0.742s] -- Detecting CXX compiler ABI info
+[0.930s] -- Detecting CXX compiler ABI info - done
+[0.949s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.949s] -- Detecting CXX compile features
+[0.949s] -- Detecting CXX compile features - done
+[0.954s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.449s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.682s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.712s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.759s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.924s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.083s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[3.142s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.191s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.097s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.160s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[5.168s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.227s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[5.227s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.227s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.228s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.273s] -- Found PythonExtra: .so  
+[5.439s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.570s] -- Added test 'lint_cmake' to check CMake code style
+[5.578s] -- Added test 'xmllint' to check XML markup files
+[5.604s] -- Configuring done
+[5.782s] -- Generating done
+[5.802s] -- Build files have been written to: /home/zhanger/tmp/bloomba/bloomba_ws/src/build/apriltag_msgs
+[5.828s] Invoked command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble /usr/bin/cmake /home/zhanger/tmp/bloomba/bloomba_ws/src/apriltag_msgs -DCMAKE_INSTALL_PREFIX=/home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs
+[5.829s] Invoking command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble /usr/bin/cmake --build /home/zhanger/tmp/bloomba/bloomba_ws/src/build/apriltag_msgs -- -j4 -l4
+[6.065s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.124s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.230s] [  4%] Built target ament_cmake_python_copy_apriltag_msgs
+[6.880s] running egg_info
+[6.882s] creating apriltag_msgs.egg-info
+[6.884s] writing apriltag_msgs.egg-info/PKG-INFO
+[6.884s] writing dependency_links to apriltag_msgs.egg-info/dependency_links.txt
+[6.884s] writing top-level names to apriltag_msgs.egg-info/top_level.txt
+[6.884s] writing manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[6.886s] reading manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[6.887s] writing manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[6.956s] [  4%] Built target ament_cmake_python_build_apriltag_msgs_egg
+[7.463s] [  6%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/point__functions.c.o[0m
+[7.533s] [  8%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/april_tag_detection__functions.c.o[0m
+[7.549s] [ 10%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/april_tag_detection_array__functions.c.o[0m
+[7.709s] [ 10%] Built target apriltag_msgs__cpp
+[7.756s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.769s] [ 17%] [32m[1mLinking C shared library libapriltag_msgs__rosidl_generator_c.so[0m
+[7.782s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.796s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.937s] [ 19%] Built target apriltag_msgs__rosidl_generator_c
+[8.022s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.976s] [ 23%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/point__type_support.cpp.o[0m
+[9.151s] [ 25%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/point__type_support.cpp.o[0m
+[9.186s] [ 27%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/point__type_support.cpp.o[0m
+[9.348s] [ 29%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/point__type_support_c.cpp.o[0m
+[10.032s] [ 31%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/april_tag_detection__type_support.cpp.o[0m
+[10.541s] [ 34%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/april_tag_detection__type_support.cpp.o[0m
+[10.679s] [ 36%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/april_tag_detection__type_support_c.cpp.o[0m
+[10.770s] [ 38%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/april_tag_detection__type_support.cpp.o[0m
+[11.178s] [ 40%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/april_tag_detection_array__type_support.cpp.o[0m
+[11.633s] [ 42%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/april_tag_detection_array__type_support.cpp.o[0m
+[11.770s] [ 44%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/april_tag_detection_array__type_support_c.cpp.o[0m
+[12.138s] [ 46%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.cpp.o[0m
+[12.146s] [ 48%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_cpp.so[0m
+[12.306s] [ 48%] Built target apriltag_msgs__rosidl_typesupport_cpp
+[12.324s] [ 51%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.567s] [ 53%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.682s] [ 55%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[12.723s] [ 55%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_cpp
+[12.738s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.874s] [ 57%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c
+[13.031s] [ 59%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[13.109s] [ 61%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/april_tag_detection__type_support.c.o[0m
+[13.112s] [ 63%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/point__type_support.c.o[0m
+[13.174s] [ 65%] Built target apriltag_msgs__rosidl_typesupport_introspection_cpp
+[13.175s] [ 65%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.c.o[0m
+[13.236s] [ 68%] [32m[1mLinking C shared library libapriltag_msgs__rosidl_typesupport_introspection_c.so[0m
+[13.289s] [ 68%] Built target apriltag_msgs__rosidl_typesupport_introspection_c
+[13.335s] [ 70%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/april_tag_detection_array__type_support.cpp.o[0m
+[13.344s] [ 72%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/april_tag_detection__type_support.cpp.o[0m
+[13.344s] [ 74%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/point__type_support.cpp.o[0m
+[13.409s] [ 76%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_c.so[0m
+[13.475s] [ 76%] Built target apriltag_msgs__rosidl_typesupport_c
+[13.499s] [ 76%] Built target apriltag_msgs
+[13.528s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.538s] [ 78%] Built target apriltag_msgs__py
+[14.580s] [ 82%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_april_tag_detection_array_s.c.o[0m
+[14.583s] [ 85%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_point_s.c.o[0m
+[14.594s] [ 85%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_april_tag_detection_s.c.o[0m
+[14.998s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/libapriltag_msgs__rosidl_generator_py.so[0m
+[15.160s] [ 87%] Built target apriltag_msgs__rosidl_generator_py
+[15.225s] [ 89%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.282s] [ 91%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.323s] [ 93%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[15.614s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.620s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.685s] [ 97%] Built target apriltag_msgs__rosidl_typesupport_introspection_c__pyext
+[15.710s] [100%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.849s] [100%] Built target apriltag_msgs__rosidl_typesupport_c__pyext
+[15.882s] [100%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext
+[15.940s] Invoked command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble /usr/bin/cmake --build /home/zhanger/tmp/bloomba/bloomba_ws/src/build/apriltag_msgs -- -j4 -l4
+[16.594s] Invoking command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble /usr/bin/cmake --install /home/zhanger/tmp/bloomba/bloomba_ws/src/build/apriltag_msgs
+[16.609s] -- Install configuration: ""
+[16.610s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/ament_index/resource_index/rosidl_interfaces/apriltag_msgs
+[16.613s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[16.615s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[16.616s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_generator_c__visibility_control.h
+[16.619s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.h
+[16.621s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[16.622s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.h
+[16.623s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__functions.h
+[16.623s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__functions.c
+[16.623s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.h
+[16.624s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__functions.c
+[16.624s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__functions.h
+[16.626s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.h
+[16.626s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__functions.c
+[16.626s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.h
+[16.627s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.h
+[16.627s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__functions.h
+[16.627s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.h
+[16.630s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.h
+[16.630s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/point.h
+[16.630s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.sh
+[16.630s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.dsv
+[16.631s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_c.so
+[16.631s] -- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_c.so" to ""
+[16.631s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[16.632s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[16.632s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[16.632s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+[16.634s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_c.h
+[16.634s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_c.h
+[16.634s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.634s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_c.so
+[16.635s] -- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[16.635s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[16.635s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[16.640s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.640s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[16.641s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.c
+[16.641s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_c.h
+[16.641s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_c.h
+[16.641s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.c
+[16.641s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.c
+[16.642s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h
+[16.642s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_c.so
+[16.643s] -- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_c.so" to ""
+[16.643s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_c.so
+[16.644s] -- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_c.so" to ""
+[16.644s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[16.644s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[16.645s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp
+[16.645s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/point.hpp
+[16.645s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[16.646s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__builder.hpp
+[16.646s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp
+[16.646s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__traits.hpp
+[16.647s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.hpp
+[16.647s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__builder.hpp
+[16.648s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__traits.hpp
+[16.648s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.hpp
+[16.648s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__builder.hpp
+[16.654s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__traits.hpp
+[16.654s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.hpp
+[16.655s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[16.655s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[16.656s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.656s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[16.656s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[16.657s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/dds_fastrtps
+[16.657s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[16.662s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+[16.662s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so
+[16.663s] -- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.663s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[16.663s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[16.663s] -- Up-to-date: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[16.663s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+[16.664s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_cpp.hpp
+[16.664s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.cpp
+[16.664s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.cpp
+[16.664s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.cpp
+[16.664s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_cpp.hpp
+[16.664s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_cpp.so
+[16.665s] -- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[16.665s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_cpp.so
+[16.668s] -- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_cpp.so" to ""
+[16.668s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.sh
+[16.668s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.dsv
+[16.668s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info
+[16.669s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info/top_level.txt
+[16.670s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info/dependency_links.txt
+[16.670s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info/PKG-INFO
+[16.670s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info/SOURCES.txt
+[16.672s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs
+[16.673s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.673s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.673s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/__init__.py
+[16.673s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg
+[16.673s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/__init__.py
+[16.674s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_s.c
+[16.683s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array.py
+[16.684s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array_s.c
+[16.684s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_point.py
+[16.684s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_point_s.c
+[16.684s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection.py
+[16.685s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[16.685s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.685s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_c.c
+[16.685s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/libapriltag_msgs__rosidl_generator_py.so
+[16.685s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.806s] Listing '/home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs'...
+[16.806s] Compiling '/home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/__init__.py'...
+[16.807s] Listing '/home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg'...
+[16.807s] Compiling '/home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/__init__.py'...
+[16.807s] Compiling '/home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection.py'...
+[16.807s] Compiling '/home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array.py'...
+[16.807s] Compiling '/home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_point.py'...
+[16.826s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.826s] -- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.827s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.827s] -- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.828s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.828s] -- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.831s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_py.so
+[16.831s] -- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_py.so" to ""
+[16.831s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/msg/Point.idl
+[16.833s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.idl
+[16.834s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.idl
+[16.835s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/msg/Point.msg
+[16.837s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.msg
+[16.837s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.msg
+[16.840s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/ament_index/resource_index/package_run_dependencies/apriltag_msgs
+[16.840s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/ament_index/resource_index/parent_prefix_path/apriltag_msgs
+[16.840s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.sh
+[16.841s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.dsv
+[16.841s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/environment/path.sh
+[16.841s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/environment/path.dsv
+[16.843s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/local_setup.bash
+[16.846s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/local_setup.sh
+[16.846s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/local_setup.zsh
+[16.846s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/local_setup.dsv
+[16.846s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/package.dsv
+[16.847s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/ament_index/resource_index/packages/apriltag_msgs
+[16.847s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport.cmake
+[16.847s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport-noconfig.cmake
+[16.848s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[16.848s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.848s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport.cmake
+[16.849s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.850s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport.cmake
+[16.851s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[16.851s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cppExport.cmake
+[16.855s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.862s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.862s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[16.862s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.863s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport.cmake
+[16.863s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[16.863s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport.cmake
+[16.863s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport-noconfig.cmake
+[16.864s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake-extras.cmake
+[16.864s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.864s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.864s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[16.865s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[16.867s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.867s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.867s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig.cmake
+[16.868s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig-version.cmake
+[16.868s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/apriltag_msgs/share/apriltag_msgs/package.xml
+[16.889s] Invoked command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble /usr/bin/cmake --install /home/zhanger/tmp/bloomba/bloomba_ws/src/build/apriltag_msgs

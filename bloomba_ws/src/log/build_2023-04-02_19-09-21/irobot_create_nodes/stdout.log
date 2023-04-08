@@ -1,0 +1,117 @@
+[35m[1mConsolidate compiler generated dependencies of target hazard_publisher_lib[0m
+[  5%] Built target hazard_publisher_lib
+[35m[1mConsolidate compiler generated dependencies of target ir_intensity_vector_publisher[0m
+[ 10%] Built target ir_intensity_vector_publisher
+[ 13%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control_node.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/docking_behavior.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/motion_control.dir/rclcpp_components/node_main_motion_control.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target ir_intensity_publisher_lib[0m
+[ 24%] Built target ir_intensity_publisher_lib
+[ 27%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/drive_goal_behaviors.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target hazards_vector_publisher[0m
+[ 32%] Built target hazards_vector_publisher
+[35m[1mConsolidate compiler generated dependencies of target wheel_status_publisher_lib[0m
+[ 37%] Built target wheel_status_publisher_lib
+[35m[1mConsolidate compiler generated dependencies of target wheel_status_publisher[0m
+[ 43%] Built target wheel_status_publisher
+[35m[1mConsolidate compiler generated dependencies of target robot_state_lib[0m
+[ 48%] Built target robot_state_lib
+[35m[1mConsolidate compiler generated dependencies of target robot_state[0m
+[ 54%] Built target robot_state
+[ 56%] [32mBuilding CXX object CMakeFiles/ui_mgr_lib.dir/src/ui_mgr.cpp.o[0m
+[ 59%] [32m[1mLinking CXX executable motion_control[0m
+[ 59%] Built target motion_control
+[ 62%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/wall_follow_behavior.cpp.o[0m
+[ 64%] [32m[1mLinking CXX shared library libui_mgr_lib.so[0m
+[ 64%] Built target ui_mgr_lib
+[ 67%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/wall_follow_states.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/reflex_behavior.cpp.o[0m
+[ 72%] [32m[1mLinking CXX shared library libmotion_control_lib.so[0m
+[ 72%] Built target motion_control_lib
+[ 75%] [32mBuilding CXX object CMakeFiles/mock_publisher.dir/rclcpp_components/node_main_mock_publisher.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable mock_publisher[0m
+[ 78%] Built target mock_publisher
+[ 81%] [32mBuilding CXX object CMakeFiles/kidnap_estimator_publisher_lib.dir/src/kidnap_estimator_publisher.cpp.o[0m
+[ 83%] [32m[1mLinking CXX shared library libkidnap_estimator_publisher_lib.so[0m
+[ 83%] Built target kidnap_estimator_publisher_lib
+[ 86%] [32mBuilding CXX object CMakeFiles/mock_publisher_lib.dir/src/mock_publisher.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/kidnap_estimator_publisher.dir/rclcpp_components/node_main_kidnap_estimator_publisher.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable kidnap_estimator_publisher[0m
+[ 91%] Built target kidnap_estimator_publisher
+[ 94%] [32mBuilding CXX object CMakeFiles/ui_mgr.dir/rclcpp_components/node_main_ui_mgr.cpp.o[0m
+[ 97%] [32m[1mLinking CXX shared library libmock_publisher_lib.so[0m
+[ 97%] Built target mock_publisher_lib
+[100%] [32m[1mLinking CXX executable ui_mgr[0m
+[100%] Built target ui_mgr
+-- Install configuration: ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/irobot_create_nodes/hazards_vector_publisher
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/irobot_create_nodes/hazards_vector_publisher" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/irobot_create_nodes/ir_intensity_vector_publisher
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/irobot_create_nodes/ir_intensity_vector_publisher" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/irobot_create_nodes/motion_control
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/irobot_create_nodes/motion_control" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/irobot_create_nodes/wheel_status_publisher
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/irobot_create_nodes/wheel_status_publisher" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/irobot_create_nodes/robot_state
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/irobot_create_nodes/robot_state" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/irobot_create_nodes/ui_mgr
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/irobot_create_nodes/ui_mgr" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/irobot_create_nodes/mock_publisher
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/irobot_create_nodes/mock_publisher" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/irobot_create_nodes/kidnap_estimator_publisher
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/irobot_create_nodes/kidnap_estimator_publisher" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/libhazard_publisher_lib.so
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/libhazard_publisher_lib.so" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/libir_intensity_publisher_lib.so
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/libir_intensity_publisher_lib.so" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/libmotion_control_lib.so
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/libmotion_control_lib.so" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/libwheel_status_publisher_lib.so
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/libwheel_status_publisher_lib.so" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/librobot_state_lib.so
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/librobot_state_lib.so" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/libui_mgr_lib.so
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/libui_mgr_lib.so" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/libmock_publisher_lib.so
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/libmock_publisher_lib.so" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/libkidnap_estimator_publisher_lib.so
+-- Set runtime path of "/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/lib/libkidnap_estimator_publisher_lib.so" to ""
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/include
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/include/irobot_create_nodes
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/include/irobot_create_nodes/motion_control
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/wall_follow_states.hpp
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/drive_goal_behaviors.hpp
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/wall_follow_behavior.hpp
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/docking_behavior.hpp
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/behaviors_scheduler.hpp
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/simple_goal_controller.hpp
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/reflex_behavior.hpp
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/include/irobot_create_nodes/kidnap_estimator_publisher.hpp
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/include/irobot_create_nodes/mock_publisher.hpp
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/include/irobot_create_nodes/wheels_publisher.hpp
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/include/irobot_create_nodes/ui_mgr.hpp
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/include/irobot_create_nodes/robot_state.hpp
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/include/irobot_create_nodes/motion_control_node.hpp
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/include/irobot_create_nodes/hazards_vector_publisher.hpp
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/include/irobot_create_nodes/ir_intensity_vector_publisher.hpp
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/share/irobot_create_nodes/environment/library_path.sh
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/share/irobot_create_nodes/environment/library_path.dsv
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/share/ament_index/resource_index/package_run_dependencies/irobot_create_nodes
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/share/ament_index/resource_index/parent_prefix_path/irobot_create_nodes
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/share/irobot_create_nodes/environment/ament_prefix_path.sh
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/share/irobot_create_nodes/environment/ament_prefix_path.dsv
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/share/irobot_create_nodes/environment/path.sh
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/share/irobot_create_nodes/environment/path.dsv
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/share/irobot_create_nodes/local_setup.bash
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/share/irobot_create_nodes/local_setup.sh
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/share/irobot_create_nodes/local_setup.zsh
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/share/irobot_create_nodes/local_setup.dsv
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/share/irobot_create_nodes/package.dsv
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/share/ament_index/resource_index/packages/irobot_create_nodes
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/share/ament_index/resource_index/rclcpp_components/irobot_create_nodes
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/share/irobot_create_nodes/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/share/irobot_create_nodes/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/share/irobot_create_nodes/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/share/irobot_create_nodes/cmake/irobot_create_nodesConfig.cmake
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/share/irobot_create_nodes/cmake/irobot_create_nodesConfig-version.cmake
+-- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_nodes/share/irobot_create_nodes/package.xml

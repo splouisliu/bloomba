@@ -1,0 +1,9 @@
+gmake[2]: *** [CMakeFiles/gazebo_ros_create_cliff_sensor.dir/build.make:76: CMakeFiles/gazebo_ros_create_cliff_sensor.dir/src/gazebo_ros_cliff_sensor.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/gazebo_ros_create_docking_status.dir/build.make:76: CMakeFiles/gazebo_ros_create_docking_status.dir/src/gazebo_ros_docking_status.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:181: CMakeFiles/gazebo_ros_create_cliff_sensor.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:207: CMakeFiles/gazebo_ros_create_docking_status.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/gazebo_ros_create_ir_intensity_sensor.dir/build.make:76: CMakeFiles/gazebo_ros_create_ir_intensity_sensor.dir/src/gazebo_ros_ir_intensity_sensor.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:285: CMakeFiles/gazebo_ros_create_ir_intensity_sensor.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/gazebo_ros_create_imu.dir/build.make:76: CMakeFiles/gazebo_ros_create_imu.dir/src/gazebo_ros_imu.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:259: CMakeFiles/gazebo_ros_create_imu.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

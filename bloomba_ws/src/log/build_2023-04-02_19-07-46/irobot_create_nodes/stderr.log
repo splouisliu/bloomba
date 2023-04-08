@@ -1,0 +1,5 @@
+gmake[2]: *** [CMakeFiles/motion_control_lib.dir/build.make:76: CMakeFiles/motion_control_lib.dir/src/motion_control_node.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/motion_control.dir/build.make:76: CMakeFiles/motion_control.dir/rclcpp_components/node_main_motion_control.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:271: CMakeFiles/motion_control_lib.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:297: CMakeFiles/motion_control.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

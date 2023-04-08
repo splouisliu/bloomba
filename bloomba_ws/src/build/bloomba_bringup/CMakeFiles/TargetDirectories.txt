@@ -1,0 +1,9 @@
+/home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_bringup/CMakeFiles/uninstall.dir
+/home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_bringup/CMakeFiles/bloomba_bringup_uninstall.dir
+/home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_bringup/CMakeFiles/test.dir
+/home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_bringup/CMakeFiles/edit_cache.dir
+/home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_bringup/CMakeFiles/rebuild_cache.dir
+/home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_bringup/CMakeFiles/list_install_components.dir
+/home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_bringup/CMakeFiles/install.dir
+/home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_bringup/CMakeFiles/install/local.dir
+/home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_bringup/CMakeFiles/install/strip.dir

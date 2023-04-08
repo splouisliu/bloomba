@@ -1,0 +1,45 @@
+[2.297s] Invoking command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/bloomba_navigation': PYTHONPATH=/home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_navigation/prefix_override:/home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/bloomba_navigation build --build-base /home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_navigation/build install --record /home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_navigation/install.log --single-version-externally-managed
+[2.837s] running egg_info
+[2.838s] creating ../build/bloomba_navigation/bloomba_navigation.egg-info
+[2.838s] writing ../build/bloomba_navigation/bloomba_navigation.egg-info/PKG-INFO
+[2.839s] writing dependency_links to ../build/bloomba_navigation/bloomba_navigation.egg-info/dependency_links.txt
+[2.839s] writing entry points to ../build/bloomba_navigation/bloomba_navigation.egg-info/entry_points.txt
+[2.839s] writing requirements to ../build/bloomba_navigation/bloomba_navigation.egg-info/requires.txt
+[2.839s] writing top-level names to ../build/bloomba_navigation/bloomba_navigation.egg-info/top_level.txt
+[2.840s] writing manifest file '../build/bloomba_navigation/bloomba_navigation.egg-info/SOURCES.txt'
+[2.842s] reading manifest file '../build/bloomba_navigation/bloomba_navigation.egg-info/SOURCES.txt'
+[2.843s] writing manifest file '../build/bloomba_navigation/bloomba_navigation.egg-info/SOURCES.txt'
+[2.843s] running build
+[2.843s] running build_py
+[2.843s] creating /home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_navigation/build
+[2.844s] creating /home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_navigation/build/lib
+[2.844s] creating /home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_navigation/build/lib/bloomba_navigation
+[2.844s] copying bloomba_navigation/__init__.py -> /home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_navigation/build/lib/bloomba_navigation
+[2.844s] copying bloomba_navigation/navigator.py -> /home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_navigation/build/lib/bloomba_navigation
+[2.844s] running install
+[2.845s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.845s]   warnings.warn(
+[2.845s] running install_lib
+[2.846s] creating /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/lib/python3.10/site-packages/bloomba_navigation
+[2.846s] copying /home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_navigation/build/lib/bloomba_navigation/__init__.py -> /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/lib/python3.10/site-packages/bloomba_navigation
+[2.846s] copying /home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_navigation/build/lib/bloomba_navigation/navigator.py -> /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/lib/python3.10/site-packages/bloomba_navigation
+[2.847s] byte-compiling /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/lib/python3.10/site-packages/bloomba_navigation/__init__.py to __init__.cpython-310.pyc
+[2.847s] byte-compiling /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/lib/python3.10/site-packages/bloomba_navigation/navigator.py to navigator.cpython-310.pyc
+[2.848s] running install_data
+[2.849s] creating /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/share/ament_index
+[2.851s] creating /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/share/ament_index/resource_index
+[2.851s] creating /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/share/ament_index/resource_index/packages
+[2.851s] copying resource/bloomba_navigation -> /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/share/ament_index/resource_index/packages
+[2.851s] copying package.xml -> /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/share/bloomba_navigation
+[2.851s] creating /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/share/bloomba_navigation/launch
+[2.852s] copying launch/bringup_launch.py -> /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/share/bloomba_navigation/launch
+[2.852s] copying launch/localization_launch.py -> /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/share/bloomba_navigation/launch
+[2.852s] copying launch/navigation_launch.py -> /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/share/bloomba_navigation/launch
+[2.852s] creating /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/share/bloomba_navigation/config
+[2.852s] copying config/nav2_params.yaml -> /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/share/bloomba_navigation/config
+[2.853s] running install_egg_info
+[2.857s] Copying ../build/bloomba_navigation/bloomba_navigation.egg-info to /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/lib/python3.10/site-packages/bloomba_navigation-0.0.0-py3.10.egg-info
+[2.860s] running install_scripts
+[2.896s] Installing test script to /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/lib/bloomba_navigation
+[2.897s] writing list of installed files to '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_navigation/install.log'
+[3.163s] Invoked command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/bloomba_navigation' returned '0': PYTHONPATH=/home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_navigation/prefix_override:/home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/bloomba_navigation build --build-base /home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_navigation/build install --record /home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_navigation/install.log --single-version-externally-managed

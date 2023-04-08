@@ -1,0 +1,41 @@
+running egg_info
+creating ../build/bloomba_navigation/bloomba_navigation.egg-info
+writing ../build/bloomba_navigation/bloomba_navigation.egg-info/PKG-INFO
+writing dependency_links to ../build/bloomba_navigation/bloomba_navigation.egg-info/dependency_links.txt
+writing entry points to ../build/bloomba_navigation/bloomba_navigation.egg-info/entry_points.txt
+writing requirements to ../build/bloomba_navigation/bloomba_navigation.egg-info/requires.txt
+writing top-level names to ../build/bloomba_navigation/bloomba_navigation.egg-info/top_level.txt
+writing manifest file '../build/bloomba_navigation/bloomba_navigation.egg-info/SOURCES.txt'
+reading manifest file '../build/bloomba_navigation/bloomba_navigation.egg-info/SOURCES.txt'
+writing manifest file '../build/bloomba_navigation/bloomba_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_navigation/build
+creating /home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_navigation/build/lib
+creating /home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_navigation/build/lib/bloomba_navigation
+copying bloomba_navigation/__init__.py -> /home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_navigation/build/lib/bloomba_navigation
+copying bloomba_navigation/navigator.py -> /home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_navigation/build/lib/bloomba_navigation
+running install
+running install_lib
+creating /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/lib/python3.10/site-packages/bloomba_navigation
+copying /home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_navigation/build/lib/bloomba_navigation/__init__.py -> /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/lib/python3.10/site-packages/bloomba_navigation
+copying /home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_navigation/build/lib/bloomba_navigation/navigator.py -> /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/lib/python3.10/site-packages/bloomba_navigation
+byte-compiling /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/lib/python3.10/site-packages/bloomba_navigation/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/lib/python3.10/site-packages/bloomba_navigation/navigator.py to navigator.cpython-310.pyc
+running install_data
+creating /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/share/ament_index
+creating /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/share/ament_index/resource_index
+creating /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/share/ament_index/resource_index/packages
+copying resource/bloomba_navigation -> /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/share/ament_index/resource_index/packages
+copying package.xml -> /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/share/bloomba_navigation
+creating /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/share/bloomba_navigation/launch
+copying launch/bringup_launch.py -> /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/share/bloomba_navigation/launch
+copying launch/localization_launch.py -> /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/share/bloomba_navigation/launch
+copying launch/navigation_launch.py -> /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/share/bloomba_navigation/launch
+creating /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/share/bloomba_navigation/config
+copying config/nav2_params.yaml -> /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/share/bloomba_navigation/config
+running install_egg_info
+Copying ../build/bloomba_navigation/bloomba_navigation.egg-info to /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/lib/python3.10/site-packages/bloomba_navigation-0.0.0-py3.10.egg-info
+running install_scripts
+Installing test script to /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_navigation/lib/bloomba_navigation
+writing list of installed files to '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_navigation/install.log'

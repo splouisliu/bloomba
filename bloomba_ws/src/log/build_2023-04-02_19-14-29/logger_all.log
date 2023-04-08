@@ -1,0 +1,272 @@
+[0.520s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'plant_docking/']
+[0.521s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['plant_docking/'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd1e71f1720>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd1e79578b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd1e79578b0>>)
+[0.575s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.575s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.575s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.575s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.575s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.575s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.575s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zhanger/tmp/bloomba/bloomba_ws/src'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extension 'ignore'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extension 'ignore_ament_install'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extensions ['colcon_pkg']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extension 'colcon_pkg'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extensions ['colcon_meta']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extension 'colcon_meta'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extensions ['ros']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extension 'ros'
+[0.590s] DEBUG:colcon.colcon_core.package_identification:Package 'apriltag_msgs' with type 'ros.ament_cmake' and name 'apriltag_msgs'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extension 'ignore'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extension 'ignore_ament_install'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extensions ['colcon_pkg']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extension 'colcon_pkg'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extensions ['colcon_meta']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extension 'colcon_meta'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extensions ['ros']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extension 'ros'
+[0.592s] DEBUG:colcon.colcon_core.package_identification:Package 'apriltag_ros' with type 'ros.ament_cmake' and name 'apriltag_ros'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_bringup) by extension 'ignore'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_bringup) by extension 'ignore_ament_install'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_bringup) by extensions ['colcon_pkg']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_bringup) by extension 'colcon_pkg'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_bringup) by extensions ['colcon_meta']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_bringup) by extension 'colcon_meta'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_bringup) by extensions ['ros']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_bringup) by extension 'ros'
+[0.593s] DEBUG:colcon.colcon_core.package_identification:Package 'bloomba_bringup' with type 'ros.ament_cmake' and name 'bloomba_bringup'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_navigation) by extension 'ignore'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_navigation) by extension 'ignore_ament_install'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_navigation) by extensions ['colcon_pkg']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_navigation) by extension 'colcon_pkg'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_navigation) by extensions ['colcon_meta']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_navigation) by extension 'colcon_meta'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_navigation) by extensions ['ros']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_navigation) by extension 'ros'
+[0.594s] DEBUG:colcon.colcon_core.package_identification:Package 'bloomba_navigation' with type 'ros.ament_python' and name 'bloomba_navigation'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extension 'ignore'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extension 'ignore_ament_install'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extensions ['colcon_pkg']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extension 'colcon_pkg'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extensions ['colcon_meta']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extension 'colcon_meta'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extensions ['ros']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extension 'ros'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extensions ['cmake', 'python']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extension 'cmake'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extension 'python'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extensions ['python_setup_py']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extension 'python_setup_py'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extensions ['ignore', 'ignore_ament_install']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extension 'ignore'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extension 'ignore_ament_install'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extensions ['colcon_pkg']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extension 'colcon_pkg'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extensions ['colcon_meta']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extension 'colcon_meta'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extensions ['ros']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extension 'ros'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extensions ['cmake', 'python']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extension 'cmake'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extension 'python'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extensions ['python_setup_py']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extension 'python_setup_py'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_common_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_common_bringup) by extension 'ignore'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_common_bringup) by extension 'ignore_ament_install'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_common_bringup) by extensions ['colcon_pkg']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_common_bringup) by extension 'colcon_pkg'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_common_bringup) by extensions ['colcon_meta']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_common_bringup) by extension 'colcon_meta'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_common_bringup) by extensions ['ros']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_common_bringup) by extension 'ros'
+[0.597s] DEBUG:colcon.colcon_core.package_identification:Package 'bloomba_sim/irobot_create_common/irobot_create_common_bringup' with type 'ros.ament_cmake' and name 'irobot_create_common_bringup'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_control) by extensions ['ignore', 'ignore_ament_install']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_control) by extension 'ignore'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_control) by extension 'ignore_ament_install'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_control) by extensions ['colcon_pkg']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_control) by extension 'colcon_pkg'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_control) by extensions ['colcon_meta']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_control) by extension 'colcon_meta'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_control) by extensions ['ros']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_control) by extension 'ros'
+[0.599s] DEBUG:colcon.colcon_core.package_identification:Package 'bloomba_sim/irobot_create_common/irobot_create_control' with type 'ros.ament_cmake' and name 'irobot_create_control'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_description) by extensions ['ignore', 'ignore_ament_install']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_description) by extension 'ignore'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_description) by extension 'ignore_ament_install'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_description) by extensions ['colcon_pkg']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_description) by extension 'colcon_pkg'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_description) by extensions ['colcon_meta']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_description) by extension 'colcon_meta'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_description) by extensions ['ros']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_description) by extension 'ros'
+[0.601s] DEBUG:colcon.colcon_core.package_identification:Package 'bloomba_sim/irobot_create_common/irobot_create_description' with type 'ros.ament_cmake' and name 'irobot_create_description'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_nodes) by extension 'ignore'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_nodes) by extension 'ignore_ament_install'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_nodes) by extensions ['colcon_pkg']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_nodes) by extension 'colcon_pkg'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_nodes) by extensions ['colcon_meta']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_nodes) by extension 'colcon_meta'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_nodes) by extensions ['ros']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_nodes) by extension 'ros'
+[0.604s] DEBUG:colcon.colcon_core.package_identification:Package 'bloomba_sim/irobot_create_common/irobot_create_nodes' with type 'ros.ament_cmake' and name 'irobot_create_nodes'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_toolbox) by extension 'ignore'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_toolbox) by extension 'ignore_ament_install'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_toolbox) by extensions ['colcon_pkg']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_toolbox) by extension 'colcon_pkg'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_toolbox) by extensions ['colcon_meta']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_toolbox) by extension 'colcon_meta'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_toolbox) by extensions ['ros']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_toolbox) by extension 'ros'
+[0.605s] DEBUG:colcon.colcon_core.package_identification:Package 'bloomba_sim/irobot_create_common/irobot_create_toolbox' with type 'ros.ament_cmake' and name 'irobot_create_toolbox'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extension 'ignore'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extension 'ignore_ament_install'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extensions ['colcon_pkg']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extension 'colcon_pkg'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extensions ['colcon_meta']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extension 'colcon_meta'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extensions ['ros']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extension 'ros'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extensions ['cmake', 'python']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extension 'cmake'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extension 'python'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extensions ['python_setup_py']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extension 'python_setup_py'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extension 'ignore'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extension 'ignore_ament_install'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extensions ['colcon_pkg']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extension 'colcon_pkg'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extensions ['colcon_meta']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extension 'colcon_meta'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extensions ['ros']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extension 'ros'
+[0.607s] DEBUG:colcon.colcon_core.package_identification:Package 'bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_bringup' with type 'ros.ament_cmake' and name 'irobot_create_gazebo_bringup'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extension 'ignore_ament_install'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extensions ['colcon_pkg']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extension 'colcon_pkg'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extensions ['colcon_meta']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extension 'colcon_meta'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extensions ['ros']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extension 'ros'
+[0.610s] DEBUG:colcon.colcon_core.package_identification:Package 'bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins' with type 'ros.ament_cmake' and name 'irobot_create_gazebo_plugins'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extension 'ignore'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extension 'ignore_ament_install'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extensions ['colcon_pkg']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extension 'colcon_pkg'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extensions ['colcon_meta']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extension 'colcon_meta'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extensions ['ros']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extension 'ros'
+[0.611s] DEBUG:colcon.colcon_core.package_identification:Package 'bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_sim' with type 'ros.ament_cmake' and name 'irobot_create_gazebo_sim'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/lake_harbour_office_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/lake_harbour_office_gazebo) by extension 'ignore'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/lake_harbour_office_gazebo) by extension 'ignore_ament_install'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/lake_harbour_office_gazebo) by extensions ['colcon_pkg']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/lake_harbour_office_gazebo) by extension 'colcon_pkg'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/lake_harbour_office_gazebo) by extensions ['colcon_meta']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/lake_harbour_office_gazebo) by extension 'colcon_meta'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/lake_harbour_office_gazebo) by extensions ['ros']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/lake_harbour_office_gazebo) by extension 'ros'
+[0.613s] DEBUG:colcon.colcon_core.package_identification:Package 'bloomba_sim/lake_harbour_office_gazebo' with type 'ros.ament_cmake' and name 'lake_harbour_office_gazebo'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_slam) by extension 'ignore'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_slam) by extension 'ignore_ament_install'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_slam) by extensions ['colcon_pkg']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_slam) by extension 'colcon_pkg'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_slam) by extensions ['colcon_meta']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_slam) by extension 'colcon_meta'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_slam) by extensions ['ros']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_slam) by extension 'ros'
+[0.614s] DEBUG:colcon.colcon_core.package_identification:Package 'bloomba_slam' with type 'ros.ament_python' and name 'bloomba_slam'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(plant_docking) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(plant_docking) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(plant_docking) by extension 'ignore_ament_install'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(plant_docking) by extensions ['colcon_pkg']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(plant_docking) by extension 'colcon_pkg'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(plant_docking) by extensions ['colcon_meta']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(plant_docking) by extension 'colcon_meta'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(plant_docking) by extensions ['ros']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(plant_docking) by extension 'ros'
+[0.617s] DEBUG:colcon.colcon_core.package_identification:Package 'plant_docking' with type 'ros.ament_python' and name 'plant_docking'
+[0.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.619s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'plant_docking/' in --packages-select
+[0.647s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins' from colcon.pkg: {'dependencies': ['Gazebo']}
+[0.651s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'apriltag_msgs' in 'apriltag_msgs'
+[0.651s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'bloomba_bringup' in 'bloomba_bringup'
+[0.651s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'bloomba_navigation' in 'bloomba_navigation'
+[0.651s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'bloomba_slam' in 'bloomba_slam'
+[0.651s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'irobot_create_control' in 'bloomba_sim/irobot_create_common/irobot_create_control'
+[0.651s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'irobot_create_description' in 'bloomba_sim/irobot_create_common/irobot_create_description'
+[0.651s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'irobot_create_toolbox' in 'bloomba_sim/irobot_create_common/irobot_create_toolbox'
+[0.651s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'lake_harbour_office_gazebo' in 'bloomba_sim/lake_harbour_office_gazebo'
+[0.651s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'plant_docking' in 'plant_docking'
+[0.651s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'apriltag_ros' in 'apriltag_ros'
+[0.651s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'irobot_create_gazebo_plugins' in 'bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins'
+[0.651s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'irobot_create_nodes' in 'bloomba_sim/irobot_create_common/irobot_create_nodes'
+[0.651s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'irobot_create_common_bringup' in 'bloomba_sim/irobot_create_common/irobot_create_common_bringup'
+[0.651s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'irobot_create_gazebo_bringup' in 'bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_bringup'
+[0.651s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'irobot_create_gazebo_sim' in 'bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_sim'
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.658s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 17 installed packages in /home/zhanger/tmp/bloomba/bloomba_ws/install
+[0.660s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 394 installed packages in /opt/ros/humble
+[0.662s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.797s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.801s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.801s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.801s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.801s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.801s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.806s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.806s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.806s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.817s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.826s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.826s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zhanger/tmp/bloomba/bloomba_ws/src/install/local_setup.ps1'
+[0.827s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zhanger/tmp/bloomba/bloomba_ws/src/install/_local_setup_util_ps1.py'
+[0.829s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zhanger/tmp/bloomba/bloomba_ws/src/install/setup.ps1'
+[0.831s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zhanger/tmp/bloomba/bloomba_ws/src/install/local_setup.sh'
+[0.832s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zhanger/tmp/bloomba/bloomba_ws/src/install/_local_setup_util_sh.py'
+[0.833s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zhanger/tmp/bloomba/bloomba_ws/src/install/setup.sh'
+[0.835s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zhanger/tmp/bloomba/bloomba_ws/src/install/local_setup.bash'
+[0.836s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zhanger/tmp/bloomba/bloomba_ws/src/install/setup.bash'
+[0.839s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zhanger/tmp/bloomba/bloomba_ws/src/install/local_setup.zsh'
+[0.840s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zhanger/tmp/bloomba/bloomba_ws/src/install/setup.zsh'

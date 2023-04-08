@@ -1,0 +1,138 @@
+[0.028s] Invoking command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_gazebo_plugins': AMENT_PREFIX_PATH=/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox:/home/zhanger/tmp/bloomba/bloomba_ws/install/lake_harbour_office_gazebo:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_gazebo_sim:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_gazebo_bringup:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_common_bringup:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_nodes:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_gazebo_plugins:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_toolbox:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_description:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_control:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_bringup:/home/zhanger/tmp/bloomba/bloomba_ws/install/apriltag_ros:/home/zhanger/tmp/bloomba/bloomba_ws/install/apriltag_msgs:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble LD_LIBRARY_PATH=/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zhanger/tmp/bloomba/bloomba_ws/src/bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins
+[0.110s] -- The C compiler identification is GNU 11.3.0
+[0.197s] -- The CXX compiler identification is GNU 11.3.0
+[0.208s] -- Detecting C compiler ABI info
+[0.321s] -- Detecting C compiler ABI info - done
+[0.328s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.329s] -- Detecting C compile features
+[0.329s] -- Detecting C compile features - done
+[0.334s] -- Detecting CXX compiler ABI info
+[0.470s] -- Detecting CXX compiler ABI info - done
+[0.484s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.484s] -- Detecting CXX compile features
+[0.485s] -- Detecting CXX compile features - done
+[0.491s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.746s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.938s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.042s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.056s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.076s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.108s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.154s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.482s] -- Found irobot_create_msgs: 2.1.0 (/opt/ros/humble/share/irobot_create_msgs/cmake)
+[2.361s] -- Found irobot_create_toolbox: 2.0.0 (/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake)
+[2.620s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.631s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.905s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.967s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.075s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.103s] -- Looking for pthread.h
+[3.275s] -- Looking for pthread.h - found
+[3.276s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.437s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.437s] -- Found Threads: TRUE  
+[3.861s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.237s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[4.240s] -- Checking for module 'bullet>=2.82'
+[4.295s] --   Found bullet, version 3.05
+[4.576s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[4.689s] -- Found assimp: /usr/include (found version "5.2.0") 
+[4.805s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[4.935s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[5.010s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[5.027s] -- Looking for ignition-math6 -- found version 6.12.0
+[5.029s] -- Looking for OGRE...
+[5.030s] -- OGRE_PREFIX_WATCH changed.
+[5.051s] -- Checking for module 'OGRE'
+[5.080s] --   Found OGRE, version 1.9.0
+[5.175s] -- Found Ogre Ghadamon (1.9.0)
+[5.200s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[5.230s] -- Looking for OGRE_Paging...
+[5.260s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[5.265s] -- Looking for OGRE_Terrain...
+[5.289s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[5.289s] -- Looking for OGRE_Property...
+[5.311s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[5.311s] -- Looking for OGRE_RTShaderSystem...
+[5.336s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[5.336s] -- Looking for OGRE_Volume...
+[5.356s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[5.356s] -- Looking for OGRE_Overlay...
+[5.377s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[5.977s] -- Looking for ignition-math6 -- found version 6.12.0
+[5.985s] -- Looking for ignition-transport8 -- found version 8.2.1
+[5.986s] -- Searching for dependencies of ignition-transport8
+[6.021s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[6.043s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[6.050s] -- Checking for module 'libzmq >= 4'
+[6.078s] --   Found libzmq , version 4.3.4
+[6.136s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[6.147s] -- Checking for module 'uuid'
+[6.172s] --   Found uuid, version 2.37.2
+[6.230s] -- Found UUID: TRUE  
+[6.237s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[6.238s] -- Searching for dependencies of ignition-msgs5
+[6.276s] -- Looking for ignition-math6 -- found version 6.12.0
+[6.285s] -- Checking for module 'tinyxml2'
+[6.309s] --   Found tinyxml2, version 9.0.0
+[6.363s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[6.371s] -- Looking for ignition-common3 -- found version 3.14.0
+[6.371s] -- Searching for dependencies of ignition-common3
+[6.372s] -- Looking for dlfcn.h - found
+[6.374s] -- Looking for libdl - found
+[6.377s] -- Found DL: TRUE  
+[6.400s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[6.401s] -- Searching for <ignition-common3> component [graphics]
+[6.409s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[6.410s] -- Searching for dependencies of ignition-common3-graphics
+[6.411s] -- Looking for ignition-math6 -- found version 6.12.0
+[6.421s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[6.422s] -- Searching for dependencies of ignition-fuel_tools4
+[6.563s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[6.585s] -- Checking for module 'jsoncpp'
+[6.611s] --   Found jsoncpp, version 1.9.5
+[6.682s] -- Found JSONCPP: TRUE  
+[6.693s] -- Checking for module 'libzip'
+[6.722s] --   Found libzip, version 1.7.3
+[6.784s] -- Found ZIP: TRUE  
+[6.785s] -- Looking for ignition-common3 -- found version 3.14.0
+[6.786s] -- Looking for ignition-math6 -- found version 6.12.0
+[6.787s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[6.798s] -- Gazebo version: 11.10
+[6.799s] -- Checking for module 'tbb'
+[6.833s] --   Found tbb, version 2021.5.0
+[7.675s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.843s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.846s] -- Configured cppcheck include dirs: /home/zhanger/tmp/bloomba/bloomba_ws/src/bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins/include
+[7.846s] -- Configured cppcheck exclude dirs and/or files: 
+[7.850s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.850s] -- Configured cpplint exclude dirs and/or files: 
+[7.851s] -- Added test 'lint_cmake' to check CMake code style
+[7.856s] -- Added test 'uncrustify' to check C / C++ code style
+[7.856s] -- Configured uncrustify additional arguments: 
+[7.857s] -- Added test 'xmllint' to check XML markup files
+[7.863s] -- Configuring done
+[8.684s] -- Generating done
+[8.706s] -- Build files have been written to: /home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_gazebo_plugins
+[8.781s] Invoked command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_gazebo_plugins' returned '0': AMENT_PREFIX_PATH=/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox:/home/zhanger/tmp/bloomba/bloomba_ws/install/lake_harbour_office_gazebo:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_gazebo_sim:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_gazebo_bringup:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_common_bringup:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_nodes:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_gazebo_plugins:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_toolbox:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_description:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_control:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_bringup:/home/zhanger/tmp/bloomba/bloomba_ws/install/apriltag_ros:/home/zhanger/tmp/bloomba/bloomba_ws/install/apriltag_msgs:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble LD_LIBRARY_PATH=/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zhanger/tmp/bloomba/bloomba_ws/src/bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins
+[8.782s] Invoking command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_gazebo_plugins': AMENT_PREFIX_PATH=/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox:/home/zhanger/tmp/bloomba/bloomba_ws/install/lake_harbour_office_gazebo:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_gazebo_sim:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_gazebo_bringup:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_common_bringup:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_nodes:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_gazebo_plugins:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_toolbox:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_description:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_control:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_bringup:/home/zhanger/tmp/bloomba/bloomba_ws/install/apriltag_ros:/home/zhanger/tmp/bloomba/bloomba_ws/install/apriltag_msgs:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble LD_LIBRARY_PATH=/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_gazebo_plugins -- -j4 -l4
+[9.093s] [  5%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_helpers.dir/src/gazebo_ros_helpers.cpp.o[0m
+[27.477s] [ 10%] [32m[1mLinking CXX shared library libgazebo_ros_create_helpers.so[0m
+[28.561s] [ 10%] Built target gazebo_ros_create_helpers
+[28.684s] [ 15%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_bumper.dir/src/gazebo_ros_bumper.cpp.o[0m
+[54.191s] [ 20%] [32m[1mLinking CXX shared library libgazebo_ros_create_bumper.so[0m
+[55.054s] [ 20%] Built target gazebo_ros_create_bumper
+[55.078s] [ 25%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_imu.dir/src/gazebo_ros_imu.cpp.o[0m
+[63.111s] [ 30%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_ir_intensity_sensor.dir/src/gazebo_ros_ir_intensity_sensor.cpp.o[0m
+[64.246s] [ 35%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_docking_status.dir/src/gazebo_ros_docking_status.cpp.o[0m
+[64.373s] [ 40%] [32mBuilding CXX object CMakeFiles/gazebo_ros_create_cliff_sensor.dir/src/gazebo_ros_cliff_sensor.cpp.o[0m
+[75.753s] gmake[2]: *** [CMakeFiles/gazebo_ros_create_cliff_sensor.dir/build.make:76: CMakeFiles/gazebo_ros_create_cliff_sensor.dir/src/gazebo_ros_cliff_sensor.cpp.o] Interrupt
+[75.765s] gmake[2]: *** [CMakeFiles/gazebo_ros_create_docking_status.dir/build.make:76: CMakeFiles/gazebo_ros_create_docking_status.dir/src/gazebo_ros_docking_status.cpp.o] Interrupt
+[75.767s] gmake[1]: *** [CMakeFiles/Makefile2:181: CMakeFiles/gazebo_ros_create_cliff_sensor.dir/all] Interrupt
+[75.773s] gmake[1]: *** [CMakeFiles/Makefile2:207: CMakeFiles/gazebo_ros_create_docking_status.dir/all] Interrupt
+[75.780s] gmake[2]: *** [CMakeFiles/gazebo_ros_create_ir_intensity_sensor.dir/build.make:76: CMakeFiles/gazebo_ros_create_ir_intensity_sensor.dir/src/gazebo_ros_ir_intensity_sensor.cpp.o] Interrupt
+[75.781s] gmake[1]: *** [CMakeFiles/Makefile2:285: CMakeFiles/gazebo_ros_create_ir_intensity_sensor.dir/all] Interrupt
+[75.796s] gmake[2]: *** [CMakeFiles/gazebo_ros_create_imu.dir/build.make:76: CMakeFiles/gazebo_ros_create_imu.dir/src/gazebo_ros_imu.cpp.o] Interrupt
+[75.804s] gmake[1]: *** [CMakeFiles/Makefile2:259: CMakeFiles/gazebo_ros_create_imu.dir/all] Interrupt
+[75.804s] gmake: *** [Makefile:146: all] Interrupt
+[75.932s] Invoked command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_gazebo_plugins' returned '-2': AMENT_PREFIX_PATH=/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox:/home/zhanger/tmp/bloomba/bloomba_ws/install/lake_harbour_office_gazebo:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_gazebo_sim:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_gazebo_bringup:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_common_bringup:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_nodes:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_gazebo_plugins:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_toolbox:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_description:/home/zhanger/tmp/bloomba/bloomba_ws/install/irobot_create_control:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_bringup:/home/zhanger/tmp/bloomba/bloomba_ws/install/apriltag_ros:/home/zhanger/tmp/bloomba/bloomba_ws/install/apriltag_msgs:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble LD_LIBRARY_PATH=/home/zhanger/tmp/bloomba/bloomba_ws/src/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_gazebo_plugins -- -j4 -l4

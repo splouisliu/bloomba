@@ -1,0 +1,25 @@
+[1.581s] Invoking command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/plant_docking': PYTHONPATH=/home/zhanger/tmp/bloomba/bloomba_ws/src/build/plant_docking/prefix_override:/home/zhanger/tmp/bloomba/bloomba_ws/src/install/plant_docking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/plant_docking build --build-base /home/zhanger/tmp/bloomba/bloomba_ws/src/build/plant_docking/build install --record /home/zhanger/tmp/bloomba/bloomba_ws/src/build/plant_docking/install.log --single-version-externally-managed
+[2.016s] running egg_info
+[2.017s] writing ../build/plant_docking/plant_docking.egg-info/PKG-INFO
+[2.017s] writing dependency_links to ../build/plant_docking/plant_docking.egg-info/dependency_links.txt
+[2.018s] writing entry points to ../build/plant_docking/plant_docking.egg-info/entry_points.txt
+[2.018s] writing requirements to ../build/plant_docking/plant_docking.egg-info/requires.txt
+[2.018s] writing top-level names to ../build/plant_docking/plant_docking.egg-info/top_level.txt
+[2.021s] reading manifest file '../build/plant_docking/plant_docking.egg-info/SOURCES.txt'
+[2.024s] writing manifest file '../build/plant_docking/plant_docking.egg-info/SOURCES.txt'
+[2.024s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.025s]   warnings.warn(
+[2.025s] running build
+[2.025s] running build_py
+[2.025s] running install
+[2.025s] running install_lib
+[2.026s] running install_data
+[2.031s] running install_egg_info
+[2.031s] removing '/home/zhanger/tmp/bloomba/bloomba_ws/src/install/plant_docking/lib/python3.10/site-packages/plant_docking-0.0.0-py3.10.egg-info' (and everything under it)
+[2.031s] Copying ../build/plant_docking/plant_docking.egg-info to /home/zhanger/tmp/bloomba/bloomba_ws/src/install/plant_docking/lib/python3.10/site-packages/plant_docking-0.0.0-py3.10.egg-info
+[2.036s] running install_scripts
+[2.068s] Installing plant_docking_listener script to /home/zhanger/tmp/bloomba/bloomba_ws/src/install/plant_docking/lib/plant_docking
+[2.070s] Installing plant_tf2_broadcaster script to /home/zhanger/tmp/bloomba/bloomba_ws/src/install/plant_docking/lib/plant_docking
+[2.071s] Installing plant_tf2_listener script to /home/zhanger/tmp/bloomba/bloomba_ws/src/install/plant_docking/lib/plant_docking
+[2.073s] writing list of installed files to '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/plant_docking/install.log'
+[2.117s] Invoked command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/plant_docking' returned '0': PYTHONPATH=/home/zhanger/tmp/bloomba/bloomba_ws/src/build/plant_docking/prefix_override:/home/zhanger/tmp/bloomba/bloomba_ws/src/install/plant_docking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/plant_docking build --build-base /home/zhanger/tmp/bloomba/bloomba_ws/src/build/plant_docking/build install --record /home/zhanger/tmp/bloomba/bloomba_ws/src/build/plant_docking/install.log --single-version-externally-managed

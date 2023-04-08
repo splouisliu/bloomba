@@ -1,0 +1,4 @@
+source;share/irobot_create_control/local_setup.bash
+source;share/irobot_create_control/local_setup.dsv
+source;share/irobot_create_control/local_setup.sh
+source;share/irobot_create_control/local_setup.zsh

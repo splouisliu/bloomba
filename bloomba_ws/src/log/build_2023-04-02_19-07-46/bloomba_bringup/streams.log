@@ -1,0 +1,53 @@
+[0.056s] Invoking command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble /usr/bin/cmake /home/zhanger/tmp/bloomba/bloomba_ws/src/bloomba_bringup -DCMAKE_INSTALL_PREFIX=/home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup
+[0.153s] -- The C compiler identification is GNU 11.3.0
+[0.267s] -- The CXX compiler identification is GNU 11.3.0
+[0.284s] -- Detecting C compiler ABI info
+[0.434s] -- Detecting C compiler ABI info - done
+[0.449s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.449s] -- Detecting C compile features
+[0.450s] -- Detecting C compile features - done
+[0.457s] -- Detecting CXX compiler ABI info
+[0.759s] -- Detecting CXX compiler ABI info - done
+[0.791s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.792s] -- Detecting CXX compile features
+[0.793s] -- Detecting CXX compile features - done
+[0.802s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.257s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.525s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.848s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.849s] -- Added test 'lint_cmake' to check CMake code style
+[1.850s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.868s] -- Added test 'xmllint' to check XML markup files
+[1.883s] -- Configuring done
+[1.898s] -- Generating done
+[1.901s] -- Build files have been written to: /home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_bringup
+[1.920s] Invoked command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble /usr/bin/cmake /home/zhanger/tmp/bloomba/bloomba_ws/src/bloomba_bringup -DCMAKE_INSTALL_PREFIX=/home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup
+[1.921s] Invoking command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble /usr/bin/cmake --build /home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_bringup -- -j4 -l4
+[2.035s] Invoked command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble /usr/bin/cmake --build /home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_bringup -- -j4 -l4
+[2.311s] Invoking command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble /usr/bin/cmake --install /home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_bringup
+[2.345s] -- Install configuration: ""
+[2.345s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup/share/bloomba_bringup/launch
+[2.345s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup/share/bloomba_bringup/launch/rviz_launch.py
+[2.345s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup/share/bloomba_bringup/launch/live_launch.py
+[2.346s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup/share/bloomba_bringup/launch/sensors_launch.py
+[2.347s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup/share/bloomba_bringup/launch/sim_launch.py
+[2.347s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup/share/bloomba_bringup/config
+[2.347s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup/share/bloomba_bringup/config/rplidar_node.yaml
+[2.350s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup/share/bloomba_bringup/rviz
+[2.350s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup/share/bloomba_bringup/rviz/bloomba_view.rviz
+[2.354s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup/share/ament_index/resource_index/package_run_dependencies/bloomba_bringup
+[2.355s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup/share/ament_index/resource_index/parent_prefix_path/bloomba_bringup
+[2.355s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup/share/bloomba_bringup/environment/ament_prefix_path.sh
+[2.355s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup/share/bloomba_bringup/environment/ament_prefix_path.dsv
+[2.355s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup/share/bloomba_bringup/environment/path.sh
+[2.356s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup/share/bloomba_bringup/environment/path.dsv
+[2.356s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup/share/bloomba_bringup/local_setup.bash
+[2.356s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup/share/bloomba_bringup/local_setup.sh
+[2.356s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup/share/bloomba_bringup/local_setup.zsh
+[2.356s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup/share/bloomba_bringup/local_setup.dsv
+[2.356s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup/share/bloomba_bringup/package.dsv
+[2.357s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup/share/ament_index/resource_index/packages/bloomba_bringup
+[2.357s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup/share/bloomba_bringup/cmake/bloomba_bringupConfig.cmake
+[2.357s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup/share/bloomba_bringup/cmake/bloomba_bringupConfig-version.cmake
+[2.357s] -- Installing: /home/zhanger/tmp/bloomba/bloomba_ws/src/install/bloomba_bringup/share/bloomba_bringup/package.xml
+[2.379s] Invoked command in '/home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhanger/tmp/bloomba/bloomba_ws/install/plant_docking:/home/zhanger/tmp/bloomba/bloomba_ws/install/learning_tf2_py:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_slam:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_navigation:/home/zhanger/tmp/bloomba/bloomba_ws/install/bloomba_docking:/opt/ros/humble /usr/bin/cmake --install /home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_bringup
