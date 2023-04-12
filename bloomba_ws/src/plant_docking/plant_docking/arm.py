@@ -13,9 +13,9 @@ def callback(msg):
     if msg.data!="":
         ser.write(message.encode('utf-8'))
 
-    while ser.in_waiting:  # Or: while ser.inWaiting():
-        line = ser.readline().decode('utf-8')
-        print(f'I read: {line}')
+    #while ser.in_waiting:  # Or: while ser.inWaiting():
+    line = ser.readline().decode('utf-8')
+    print(f'I read: {line}')
 
 
 def main(args=None):
@@ -23,10 +23,10 @@ def main(args=None):
     node = rclpy.create_node('keyboard_publisher')
     subscription = node.create_subscription(String, 'keyboard', callback, 10)
     
-    rate = node.create_rate(1000)
+    #rate = node.create_rate(1000)
     while rclpy.ok():
         rclpy.spin_once(node)
-        rate.sleep()
+        #rate.sleep()
 
     node.destroy_node()
     rclpy.shutdown()
