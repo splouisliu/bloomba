@@ -1,0 +1,408 @@
+[1.295s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.295s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff871ab5b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff87a5b100>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff87a5b100>>)
+[1.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.438s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/bloomba/bloomba_ws/src'
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_bringup) by extension 'ignore'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_bringup) by extension 'ignore_ament_install'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_bringup) by extensions ['colcon_pkg']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_bringup) by extension 'colcon_pkg'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_bringup) by extensions ['colcon_meta']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_bringup) by extension 'colcon_meta'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_bringup) by extensions ['ros']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_bringup) by extension 'ros'
+[1.498s] DEBUG:colcon.colcon_core.package_identification:Package 'bloomba_bringup' with type 'ros.ament_cmake' and name 'bloomba_bringup'
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_navigation) by extensions ['ignore', 'ignore_ament_install']
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_navigation) by extension 'ignore'
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_navigation) by extension 'ignore_ament_install'
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_navigation) by extensions ['colcon_pkg']
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_navigation) by extension 'colcon_pkg'
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_navigation) by extensions ['colcon_meta']
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_navigation) by extension 'colcon_meta'
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_navigation) by extensions ['ros']
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_navigation) by extension 'ros'
+[1.502s] DEBUG:colcon.colcon_core.package_identification:Package 'bloomba_navigation' with type 'ros.ament_python' and name 'bloomba_navigation'
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extensions ['ignore', 'ignore_ament_install']
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extension 'ignore'
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extension 'ignore_ament_install'
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extensions ['colcon_pkg']
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extension 'colcon_pkg'
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extensions ['colcon_meta']
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extension 'colcon_meta'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extensions ['ros']
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extension 'ros'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extensions ['cmake', 'python']
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extension 'cmake'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extension 'python'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extensions ['python_setup_py']
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim) by extension 'python_setup_py'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extensions ['ignore', 'ignore_ament_install']
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extension 'ignore'
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extension 'ignore_ament_install'
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extensions ['colcon_pkg']
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extension 'colcon_pkg'
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extensions ['colcon_meta']
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extension 'colcon_meta'
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extensions ['ros']
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extension 'ros'
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extensions ['cmake', 'python']
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extension 'cmake'
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extension 'python'
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extensions ['python_setup_py']
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common) by extension 'python_setup_py'
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_common_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_common_bringup) by extension 'ignore'
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_common_bringup) by extension 'ignore_ament_install'
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_common_bringup) by extensions ['colcon_pkg']
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_common_bringup) by extension 'colcon_pkg'
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_common_bringup) by extensions ['colcon_meta']
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_common_bringup) by extension 'colcon_meta'
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_common_bringup) by extensions ['ros']
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_common_bringup) by extension 'ros'
+[1.512s] DEBUG:colcon.colcon_core.package_identification:Package 'bloomba_sim/irobot_create_common/irobot_create_common_bringup' with type 'ros.ament_cmake' and name 'irobot_create_common_bringup'
+[1.513s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_control) by extensions ['ignore', 'ignore_ament_install']
+[1.513s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_control) by extension 'ignore'
+[1.513s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_control) by extension 'ignore_ament_install'
+[1.514s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_control) by extensions ['colcon_pkg']
+[1.514s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_control) by extension 'colcon_pkg'
+[1.514s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_control) by extensions ['colcon_meta']
+[1.514s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_control) by extension 'colcon_meta'
+[1.514s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_control) by extensions ['ros']
+[1.514s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_control) by extension 'ros'
+[1.517s] DEBUG:colcon.colcon_core.package_identification:Package 'bloomba_sim/irobot_create_common/irobot_create_control' with type 'ros.ament_cmake' and name 'irobot_create_control'
+[1.517s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_description) by extensions ['ignore', 'ignore_ament_install']
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_description) by extension 'ignore'
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_description) by extension 'ignore_ament_install'
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_description) by extensions ['colcon_pkg']
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_description) by extension 'colcon_pkg'
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_description) by extensions ['colcon_meta']
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_description) by extension 'colcon_meta'
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_description) by extensions ['ros']
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_description) by extension 'ros'
+[1.521s] DEBUG:colcon.colcon_core.package_identification:Package 'bloomba_sim/irobot_create_common/irobot_create_description' with type 'ros.ament_cmake' and name 'irobot_create_description'
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_nodes) by extensions ['ignore', 'ignore_ament_install']
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_nodes) by extension 'ignore'
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_nodes) by extension 'ignore_ament_install'
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_nodes) by extensions ['colcon_pkg']
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_nodes) by extension 'colcon_pkg'
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_nodes) by extensions ['colcon_meta']
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_nodes) by extension 'colcon_meta'
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_nodes) by extensions ['ros']
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_nodes) by extension 'ros'
+[1.529s] DEBUG:colcon.colcon_core.package_identification:Package 'bloomba_sim/irobot_create_common/irobot_create_nodes' with type 'ros.ament_cmake' and name 'irobot_create_nodes'
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_toolbox) by extension 'ignore'
+[1.531s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_toolbox) by extension 'ignore_ament_install'
+[1.531s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_toolbox) by extensions ['colcon_pkg']
+[1.531s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_toolbox) by extension 'colcon_pkg'
+[1.531s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_toolbox) by extensions ['colcon_meta']
+[1.531s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_toolbox) by extension 'colcon_meta'
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_toolbox) by extensions ['ros']
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_common/irobot_create_toolbox) by extension 'ros'
+[1.534s] DEBUG:colcon.colcon_core.package_identification:Package 'bloomba_sim/irobot_create_common/irobot_create_toolbox' with type 'ros.ament_cmake' and name 'irobot_create_toolbox'
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extension 'ignore'
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extension 'ignore_ament_install'
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extensions ['colcon_pkg']
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extension 'colcon_pkg'
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extensions ['colcon_meta']
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extension 'colcon_meta'
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extensions ['ros']
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extension 'ros'
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extensions ['cmake', 'python']
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extension 'cmake'
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extension 'python'
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extensions ['python_setup_py']
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo) by extension 'python_setup_py'
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extension 'ignore'
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extension 'ignore_ament_install'
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extensions ['colcon_pkg']
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extension 'colcon_pkg'
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extensions ['colcon_meta']
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extension 'colcon_meta'
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extensions ['ros']
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_bringup) by extension 'ros'
+[1.542s] DEBUG:colcon.colcon_core.package_identification:Package 'bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_bringup' with type 'ros.ament_cmake' and name 'irobot_create_gazebo_bringup'
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extension 'ignore'
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extension 'ignore_ament_install'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extensions ['colcon_pkg']
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extension 'colcon_pkg'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extensions ['colcon_meta']
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extension 'colcon_meta'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extensions ['ros']
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins) by extension 'ros'
+[1.551s] DEBUG:colcon.colcon_core.package_identification:Package 'bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins' with type 'ros.ament_cmake' and name 'irobot_create_gazebo_plugins'
+[1.551s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extensions ['ignore', 'ignore_ament_install']
+[1.552s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extension 'ignore'
+[1.552s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extension 'ignore_ament_install'
+[1.552s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extensions ['colcon_pkg']
+[1.552s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extension 'colcon_pkg'
+[1.552s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extensions ['colcon_meta']
+[1.553s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extension 'colcon_meta'
+[1.553s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extensions ['ros']
+[1.553s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_sim) by extension 'ros'
+[1.555s] DEBUG:colcon.colcon_core.package_identification:Package 'bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_sim' with type 'ros.ament_cmake' and name 'irobot_create_gazebo_sim'
+[1.555s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/lake_harbour_office_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/lake_harbour_office_gazebo) by extension 'ignore'
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/lake_harbour_office_gazebo) by extension 'ignore_ament_install'
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/lake_harbour_office_gazebo) by extensions ['colcon_pkg']
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/lake_harbour_office_gazebo) by extension 'colcon_pkg'
+[1.557s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/lake_harbour_office_gazebo) by extensions ['colcon_meta']
+[1.557s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/lake_harbour_office_gazebo) by extension 'colcon_meta'
+[1.557s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/lake_harbour_office_gazebo) by extensions ['ros']
+[1.557s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_sim/lake_harbour_office_gazebo) by extension 'ros'
+[1.559s] DEBUG:colcon.colcon_core.package_identification:Package 'bloomba_sim/lake_harbour_office_gazebo' with type 'ros.ament_cmake' and name 'lake_harbour_office_gazebo'
+[1.559s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_slam) by extensions ['ignore', 'ignore_ament_install']
+[1.560s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_slam) by extension 'ignore'
+[1.560s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_slam) by extension 'ignore_ament_install'
+[1.560s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_slam) by extensions ['colcon_pkg']
+[1.560s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_slam) by extension 'colcon_pkg'
+[1.560s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_slam) by extensions ['colcon_meta']
+[1.560s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_slam) by extension 'colcon_meta'
+[1.561s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_slam) by extensions ['ros']
+[1.561s] Level 1:colcon.colcon_core.package_identification:_identify(bloomba_slam) by extension 'ros'
+[1.562s] DEBUG:colcon.colcon_core.package_identification:Package 'bloomba_slam' with type 'ros.ament_python' and name 'bloomba_slam'
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(plant_docking) by extensions ['ignore', 'ignore_ament_install']
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(plant_docking) by extension 'ignore'
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(plant_docking) by extension 'ignore_ament_install'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(plant_docking) by extensions ['colcon_pkg']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(plant_docking) by extension 'colcon_pkg'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(plant_docking) by extensions ['colcon_meta']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(plant_docking) by extension 'colcon_meta'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(plant_docking) by extensions ['ros']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(plant_docking) by extension 'ros'
+[1.569s] DEBUG:colcon.colcon_core.package_identification:Package 'plant_docking' with type 'ros.ament_python' and name 'plant_docking'
+[1.570s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.570s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.570s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.570s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.570s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.654s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins' from colcon.pkg: {'dependencies': ['Gazebo']}
+[1.666s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.666s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.687s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 245 installed packages in /opt/ros/humble
+[1.692s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.891s] Level 5:colcon.colcon_core.verb:set package 'bloomba_bringup' build argument 'cmake_args' from command line to 'None'
+[1.891s] Level 5:colcon.colcon_core.verb:set package 'bloomba_bringup' build argument 'cmake_target' from command line to 'None'
+[1.891s] Level 5:colcon.colcon_core.verb:set package 'bloomba_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.891s] Level 5:colcon.colcon_core.verb:set package 'bloomba_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.891s] Level 5:colcon.colcon_core.verb:set package 'bloomba_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.891s] Level 5:colcon.colcon_core.verb:set package 'bloomba_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.892s] Level 5:colcon.colcon_core.verb:set package 'bloomba_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.892s] Level 5:colcon.colcon_core.verb:set package 'bloomba_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.892s] Level 5:colcon.colcon_core.verb:set package 'bloomba_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.892s] DEBUG:colcon.colcon_core.verb:Building package 'bloomba_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/bloomba/bloomba_ws/src/build/bloomba_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/bloomba/bloomba_ws/src/install/bloomba_bringup', 'merge_install': False, 'path': '/home/ubuntu/bloomba/bloomba_ws/src/bloomba_bringup', 'symlink_install': False, 'test_result_base': None}
+[1.896s] Level 5:colcon.colcon_core.verb:set package 'bloomba_navigation' build argument 'cmake_args' from command line to 'None'
+[1.896s] Level 5:colcon.colcon_core.verb:set package 'bloomba_navigation' build argument 'cmake_target' from command line to 'None'
+[1.896s] Level 5:colcon.colcon_core.verb:set package 'bloomba_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.896s] Level 5:colcon.colcon_core.verb:set package 'bloomba_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[1.896s] Level 5:colcon.colcon_core.verb:set package 'bloomba_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[1.896s] Level 5:colcon.colcon_core.verb:set package 'bloomba_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[1.896s] Level 5:colcon.colcon_core.verb:set package 'bloomba_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[1.896s] Level 5:colcon.colcon_core.verb:set package 'bloomba_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[1.896s] Level 5:colcon.colcon_core.verb:set package 'bloomba_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.897s] DEBUG:colcon.colcon_core.verb:Building package 'bloomba_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/bloomba/bloomba_ws/src/build/bloomba_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/bloomba/bloomba_ws/src/install/bloomba_navigation', 'merge_install': False, 'path': '/home/ubuntu/bloomba/bloomba_ws/src/bloomba_navigation', 'symlink_install': False, 'test_result_base': None}
+[1.900s] Level 5:colcon.colcon_core.verb:set package 'bloomba_slam' build argument 'cmake_args' from command line to 'None'
+[1.900s] Level 5:colcon.colcon_core.verb:set package 'bloomba_slam' build argument 'cmake_target' from command line to 'None'
+[1.900s] Level 5:colcon.colcon_core.verb:set package 'bloomba_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.901s] Level 5:colcon.colcon_core.verb:set package 'bloomba_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[1.901s] Level 5:colcon.colcon_core.verb:set package 'bloomba_slam' build argument 'cmake_clean_first' from command line to 'False'
+[1.901s] Level 5:colcon.colcon_core.verb:set package 'bloomba_slam' build argument 'cmake_force_configure' from command line to 'False'
+[1.901s] Level 5:colcon.colcon_core.verb:set package 'bloomba_slam' build argument 'ament_cmake_args' from command line to 'None'
+[1.901s] Level 5:colcon.colcon_core.verb:set package 'bloomba_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[1.901s] Level 5:colcon.colcon_core.verb:set package 'bloomba_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.901s] DEBUG:colcon.colcon_core.verb:Building package 'bloomba_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/bloomba/bloomba_ws/src/build/bloomba_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/bloomba/bloomba_ws/src/install/bloomba_slam', 'merge_install': False, 'path': '/home/ubuntu/bloomba/bloomba_ws/src/bloomba_slam', 'symlink_install': False, 'test_result_base': None}
+[1.905s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_control' build argument 'cmake_args' from command line to 'None'
+[1.905s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_control' build argument 'cmake_target' from command line to 'None'
+[1.905s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.905s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.905s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.905s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.906s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.906s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.906s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.906s] DEBUG:colcon.colcon_core.verb:Building package 'irobot_create_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/bloomba/bloomba_ws/src/build/irobot_create_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/bloomba/bloomba_ws/src/install/irobot_create_control', 'merge_install': False, 'path': '/home/ubuntu/bloomba/bloomba_ws/src/bloomba_sim/irobot_create_common/irobot_create_control', 'symlink_install': False, 'test_result_base': None}
+[1.910s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_description' build argument 'cmake_args' from command line to 'None'
+[1.910s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_description' build argument 'cmake_target' from command line to 'None'
+[1.910s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.910s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.910s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.910s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.910s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.910s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.910s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.911s] DEBUG:colcon.colcon_core.verb:Building package 'irobot_create_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/bloomba/bloomba_ws/src/build/irobot_create_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/bloomba/bloomba_ws/src/install/irobot_create_description', 'merge_install': False, 'path': '/home/ubuntu/bloomba/bloomba_ws/src/bloomba_sim/irobot_create_common/irobot_create_description', 'symlink_install': False, 'test_result_base': None}
+[1.914s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_toolbox' build argument 'cmake_args' from command line to 'None'
+[1.914s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_toolbox' build argument 'cmake_target' from command line to 'None'
+[1.914s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_toolbox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.914s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_toolbox' build argument 'cmake_clean_cache' from command line to 'False'
+[1.915s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_toolbox' build argument 'cmake_clean_first' from command line to 'False'
+[1.915s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_toolbox' build argument 'cmake_force_configure' from command line to 'False'
+[1.915s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_toolbox' build argument 'ament_cmake_args' from command line to 'None'
+[1.915s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_toolbox' build argument 'catkin_cmake_args' from command line to 'None'
+[1.915s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_toolbox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.915s] DEBUG:colcon.colcon_core.verb:Building package 'irobot_create_toolbox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/bloomba/bloomba_ws/src/build/irobot_create_toolbox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/bloomba/bloomba_ws/src/install/irobot_create_toolbox', 'merge_install': False, 'path': '/home/ubuntu/bloomba/bloomba_ws/src/bloomba_sim/irobot_create_common/irobot_create_toolbox', 'symlink_install': False, 'test_result_base': None}
+[1.919s] Level 5:colcon.colcon_core.verb:set package 'lake_harbour_office_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.919s] Level 5:colcon.colcon_core.verb:set package 'lake_harbour_office_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.919s] Level 5:colcon.colcon_core.verb:set package 'lake_harbour_office_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.919s] Level 5:colcon.colcon_core.verb:set package 'lake_harbour_office_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.919s] Level 5:colcon.colcon_core.verb:set package 'lake_harbour_office_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.919s] Level 5:colcon.colcon_core.verb:set package 'lake_harbour_office_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.920s] Level 5:colcon.colcon_core.verb:set package 'lake_harbour_office_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.920s] Level 5:colcon.colcon_core.verb:set package 'lake_harbour_office_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.920s] Level 5:colcon.colcon_core.verb:set package 'lake_harbour_office_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.920s] DEBUG:colcon.colcon_core.verb:Building package 'lake_harbour_office_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/bloomba/bloomba_ws/src/build/lake_harbour_office_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/bloomba/bloomba_ws/src/install/lake_harbour_office_gazebo', 'merge_install': False, 'path': '/home/ubuntu/bloomba/bloomba_ws/src/bloomba_sim/lake_harbour_office_gazebo', 'symlink_install': False, 'test_result_base': None}
+[1.923s] Level 5:colcon.colcon_core.verb:set package 'plant_docking' build argument 'cmake_args' from command line to 'None'
+[1.924s] Level 5:colcon.colcon_core.verb:set package 'plant_docking' build argument 'cmake_target' from command line to 'None'
+[1.924s] Level 5:colcon.colcon_core.verb:set package 'plant_docking' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.924s] Level 5:colcon.colcon_core.verb:set package 'plant_docking' build argument 'cmake_clean_cache' from command line to 'False'
+[1.924s] Level 5:colcon.colcon_core.verb:set package 'plant_docking' build argument 'cmake_clean_first' from command line to 'False'
+[1.924s] Level 5:colcon.colcon_core.verb:set package 'plant_docking' build argument 'cmake_force_configure' from command line to 'False'
+[1.924s] Level 5:colcon.colcon_core.verb:set package 'plant_docking' build argument 'ament_cmake_args' from command line to 'None'
+[1.924s] Level 5:colcon.colcon_core.verb:set package 'plant_docking' build argument 'catkin_cmake_args' from command line to 'None'
+[1.924s] Level 5:colcon.colcon_core.verb:set package 'plant_docking' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.924s] DEBUG:colcon.colcon_core.verb:Building package 'plant_docking' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/bloomba/bloomba_ws/src/build/plant_docking', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/bloomba/bloomba_ws/src/install/plant_docking', 'merge_install': False, 'path': '/home/ubuntu/bloomba/bloomba_ws/src/plant_docking', 'symlink_install': False, 'test_result_base': None}
+[1.928s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_plugins' build argument 'cmake_args' from command line to 'None'
+[1.928s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_plugins' build argument 'cmake_target' from command line to 'None'
+[1.928s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.929s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[1.929s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[1.929s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[1.929s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[1.929s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[1.929s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.929s] DEBUG:colcon.colcon_core.verb:Building package 'irobot_create_gazebo_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/bloomba/bloomba_ws/src/build/irobot_create_gazebo_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/bloomba/bloomba_ws/src/install/irobot_create_gazebo_plugins', 'merge_install': False, 'path': '/home/ubuntu/bloomba/bloomba_ws/src/bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_plugins', 'symlink_install': False, 'test_result_base': None}
+[1.933s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_nodes' build argument 'cmake_args' from command line to 'None'
+[1.933s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_nodes' build argument 'cmake_target' from command line to 'None'
+[1.933s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.933s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[1.933s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_nodes' build argument 'cmake_clean_first' from command line to 'False'
+[1.933s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_nodes' build argument 'cmake_force_configure' from command line to 'False'
+[1.933s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_nodes' build argument 'ament_cmake_args' from command line to 'None'
+[1.933s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[1.934s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.934s] DEBUG:colcon.colcon_core.verb:Building package 'irobot_create_nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/bloomba/bloomba_ws/src/build/irobot_create_nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/bloomba/bloomba_ws/src/install/irobot_create_nodes', 'merge_install': False, 'path': '/home/ubuntu/bloomba/bloomba_ws/src/bloomba_sim/irobot_create_common/irobot_create_nodes', 'symlink_install': False, 'test_result_base': None}
+[1.938s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_common_bringup' build argument 'cmake_args' from command line to 'None'
+[1.938s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_common_bringup' build argument 'cmake_target' from command line to 'None'
+[1.938s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_common_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.938s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_common_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.938s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_common_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.939s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_common_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.939s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_common_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.939s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_common_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.939s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_common_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.939s] DEBUG:colcon.colcon_core.verb:Building package 'irobot_create_common_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/bloomba/bloomba_ws/src/build/irobot_create_common_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/bloomba/bloomba_ws/src/install/irobot_create_common_bringup', 'merge_install': False, 'path': '/home/ubuntu/bloomba/bloomba_ws/src/bloomba_sim/irobot_create_common/irobot_create_common_bringup', 'symlink_install': False, 'test_result_base': None}
+[1.943s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_bringup' build argument 'cmake_args' from command line to 'None'
+[1.943s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_bringup' build argument 'cmake_target' from command line to 'None'
+[1.943s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.943s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.943s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.943s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.943s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.944s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.944s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.944s] DEBUG:colcon.colcon_core.verb:Building package 'irobot_create_gazebo_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/bloomba/bloomba_ws/src/build/irobot_create_gazebo_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/bloomba/bloomba_ws/src/install/irobot_create_gazebo_bringup', 'merge_install': False, 'path': '/home/ubuntu/bloomba/bloomba_ws/src/bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_bringup', 'symlink_install': False, 'test_result_base': None}
+[1.947s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_sim' build argument 'cmake_args' from command line to 'None'
+[1.948s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_sim' build argument 'cmake_target' from command line to 'None'
+[1.948s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.948s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[1.948s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_sim' build argument 'cmake_clean_first' from command line to 'False'
+[1.948s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_sim' build argument 'cmake_force_configure' from command line to 'False'
+[1.948s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_sim' build argument 'ament_cmake_args' from command line to 'None'
+[1.948s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[1.948s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_gazebo_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.948s] DEBUG:colcon.colcon_core.verb:Building package 'irobot_create_gazebo_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/bloomba/bloomba_ws/src/build/irobot_create_gazebo_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/bloomba/bloomba_ws/src/install/irobot_create_gazebo_sim', 'merge_install': False, 'path': '/home/ubuntu/bloomba/bloomba_ws/src/bloomba_sim/irobot_create_gazebo/irobot_create_gazebo_sim', 'symlink_install': False, 'test_result_base': None}
+[1.951s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.962s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.964s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/bloomba/bloomba_ws/src/bloomba_sim/irobot_create_common/irobot_create_toolbox' with build type 'ament_cmake'
+[1.964s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/bloomba/bloomba_ws/src/bloomba_sim/irobot_create_common/irobot_create_toolbox'
+[1.983s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.984s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.984s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.004s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/bloomba/bloomba_ws/src/bloomba_sim/irobot_create_common/irobot_create_control' with build type 'ament_cmake'
+[2.004s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/bloomba/bloomba_ws/src/bloomba_sim/irobot_create_common/irobot_create_control'
+[2.012s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.013s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.035s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/bloomba/bloomba_ws/src/bloomba_sim/irobot_create_common/irobot_create_description' with build type 'ament_cmake'
+[2.036s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/bloomba/bloomba_ws/src/bloomba_sim/irobot_create_common/irobot_create_description'
+[2.042s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.042s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.060s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/bloomba/bloomba_ws/src/bloomba_bringup' with build type 'ament_cmake'
+[2.061s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/bloomba/bloomba_ws/src/bloomba_bringup'
+[2.067s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.068s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/bloomba/bloomba_ws/src/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\u@\h \[\e[32m\]\w \[\e[91m\]$(parse_git_branch)\[\e[00m\]$ /usr/bin/cmake --build /home/ubuntu/bloomba/bloomba_ws/src/build/irobot_create_toolbox -- -j4 -l4
+[2.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/bloomba/bloomba_ws/src/build/irobot_create_control': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\u@\h \[\e[32m\]\w \[\e[91m\]$(parse_git_branch)\[\e[00m\]$ /usr/bin/cmake --build /home/ubuntu/bloomba/bloomba_ws/src/build/irobot_create_control -- -j4 -l4
+[2.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/bloomba/bloomba_ws/src/build/irobot_create_description': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\u@\h \[\e[32m\]\w \[\e[91m\]$(parse_git_branch)\[\e[00m\]$ /usr/bin/cmake --build /home/ubuntu/bloomba/bloomba_ws/src/build/irobot_create_description -- -j4 -l4
+[2.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/bloomba/bloomba_ws/src/build/bloomba_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\u@\h \[\e[32m\]\w \[\e[91m\]$(parse_git_branch)\[\e[00m\]$ /usr/bin/cmake --build /home/ubuntu/bloomba/bloomba_ws/src/build/bloomba_bringup -- -j4 -l4
+[2.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/bloomba/bloomba_ws/src/build/irobot_create_toolbox' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\u@\h \[\e[32m\]\w \[\e[91m\]$(parse_git_branch)\[\e[00m\]$ /usr/bin/cmake --build /home/ubuntu/bloomba/bloomba_ws/src/build/irobot_create_toolbox -- -j4 -l4
+[2.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/bloomba/bloomba_ws/src/build/irobot_create_control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\u@\h \[\e[32m\]\w \[\e[91m\]$(parse_git_branch)\[\e[00m\]$ /usr/bin/cmake --build /home/ubuntu/bloomba/bloomba_ws/src/build/irobot_create_control -- -j4 -l4
+[2.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/bloomba/bloomba_ws/src/build/irobot_create_description' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\u@\h \[\e[32m\]\w \[\e[91m\]$(parse_git_branch)\[\e[00m\]$ /usr/bin/cmake --build /home/ubuntu/bloomba/bloomba_ws/src/build/irobot_create_description -- -j4 -l4
+[2.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/bloomba/bloomba_ws/src/build/bloomba_bringup' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\u@\h \[\e[32m\]\w \[\e[91m\]$(parse_git_branch)\[\e[00m\]$ /usr/bin/cmake --build /home/ubuntu/bloomba/bloomba_ws/src/build/bloomba_bringup -- -j4 -l4
+[2.365s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(irobot_create_control)
+[2.392s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/bloomba/bloomba_ws/src/install/irobot_create_control' for CMake module files
+[2.401s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/bloomba/bloomba_ws/src/install/irobot_create_control' for CMake config files
+[2.405s] Level 1:colcon.colcon_core.shell:create_environment_hook('irobot_create_control', 'cmake_prefix_path')
+[2.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/bloomba/bloomba_ws/src/install/irobot_create_control/share/irobot_create_control/hook/cmake_prefix_path.ps1'
+[2.415s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/bloomba/bloomba_ws/src/install/irobot_create_control/share/irobot_create_control/hook/cmake_prefix_path.dsv'
+[2.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/bloomba/bloomba_ws/src/install/irobot_create_control/share/irobot_create_control/hook/cmake_prefix_path.sh'
+[2.421s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/bloomba/bloomba_ws/src/install/irobot_create_control/bin'
+[2.422s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/bloomba/bloomba_ws/src/install/irobot_create_control/lib/pkgconfig/irobot_create_control.pc'
+[2.423s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/bloomba/bloomba_ws/src/install/irobot_create_control/lib/python3.10/site-packages'
+[2.424s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/bloomba/bloomba_ws/src/install/irobot_create_control/bin'
+[2.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/bloomba/bloomba_ws/src/install/irobot_create_control/share/irobot_create_control/package.ps1'
+[2.432s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/bloomba/bloomba_ws/src/install/irobot_create_control/share/irobot_create_control/package.dsv'
+[2.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/bloomba/bloomba_ws/src/install/irobot_create_control/share/irobot_create_control/package.sh'
+[2.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/bloomba/bloomba_ws/src/install/irobot_create_control/share/irobot_create_control/package.bash'
+[2.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/bloomba/bloomba_ws/src/install/irobot_create_control/share/irobot_create_control/package.zsh'
+[2.444s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/bloomba/bloomba_ws/src/install/irobot_create_control/share/colcon-core/packages/irobot_create_control)
+[2.460s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.460s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.461s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[2.461s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.503s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.504s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.504s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.504s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.507s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2.507s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.512s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/bloomba/bloomba_ws/src/install/local_setup.ps1'
+[2.515s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/bloomba/bloomba_ws/src/install/_local_setup_util_ps1.py'
+[2.522s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/bloomba/bloomba_ws/src/install/setup.ps1'
+[2.528s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/bloomba/bloomba_ws/src/install/local_setup.sh'
+[2.530s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/bloomba/bloomba_ws/src/install/_local_setup_util_sh.py'
+[2.533s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/bloomba/bloomba_ws/src/install/setup.sh'
+[2.538s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/bloomba/bloomba_ws/src/install/local_setup.bash'
+[2.540s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/bloomba/bloomba_ws/src/install/setup.bash'
+[2.545s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/bloomba/bloomba_ws/src/install/local_setup.zsh'
+[2.547s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/bloomba/bloomba_ws/src/install/setup.zsh'

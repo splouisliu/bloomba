@@ -1,0 +1,6 @@
+[0.131s] Invoking command in '/home/ubuntu/bloomba/bloomba_ws/src/build/bloomba_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\u@\h \[\e[32m\]\w \[\e[91m\]$(parse_git_branch)\[\e[00m\]$ /usr/bin/cmake --build /home/ubuntu/bloomba/bloomba_ws/src/build/bloomba_bringup -- -j4 -l4
+[0.168s] [0mCMake Error: The current CMakeCache.txt directory /home/ubuntu/bloomba/bloomba_ws/src/build/bloomba_bringup/CMakeCache.txt is different than the directory /home/zhanger/tmp/bloomba/bloomba_ws/src/build/bloomba_bringup where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.217s] [0mCMake Error: The source directory "/home/zhanger/tmp/bloomba/bloomba_ws/src/bloomba_bringup" does not exist.
+[0.218s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.221s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.232s] Invoked command in '/home/ubuntu/bloomba/bloomba_ws/src/build/bloomba_bringup' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\u@\h \[\e[32m\]\w \[\e[91m\]$(parse_git_branch)\[\e[00m\]$ /usr/bin/cmake --build /home/ubuntu/bloomba/bloomba_ws/src/build/bloomba_bringup -- -j4 -l4

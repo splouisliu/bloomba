@@ -1,0 +1,6 @@
+[0.123s] Invoking command in '/home/ubuntu/bloomba/bloomba_ws/src/build/irobot_create_control': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\u@\h \[\e[32m\]\w \[\e[91m\]$(parse_git_branch)\[\e[00m\]$ /usr/bin/cmake --build /home/ubuntu/bloomba/bloomba_ws/src/build/irobot_create_control -- -j4 -l4
+[0.156s] [0mCMake Error: The current CMakeCache.txt directory /home/ubuntu/bloomba/bloomba_ws/src/build/irobot_create_control/CMakeCache.txt is different than the directory /home/zhanger/tmp/bloomba/bloomba_ws/src/build/irobot_create_control where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.216s] [0mCMake Error: The source directory "/home/zhanger/tmp/bloomba/bloomba_ws/src/bloomba_sim/irobot_create_common/irobot_create_control" does not exist.
+[0.217s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.223s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.231s] Invoked command in '/home/ubuntu/bloomba/bloomba_ws/src/build/irobot_create_control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\u@\h \[\e[32m\]\w \[\e[91m\]$(parse_git_branch)\[\e[00m\]$ /usr/bin/cmake --build /home/ubuntu/bloomba/bloomba_ws/src/build/irobot_create_control -- -j4 -l4

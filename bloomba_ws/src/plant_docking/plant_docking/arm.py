@@ -3,7 +3,6 @@ from std_msgs.msg import String
 import serial
 
 ser = serial.Serial('/dev/ttyACM0', 9600, timeout=0.050)  # Replace '/dev/ttyACM0' with the name of your serial port
-ser.timeout = 1
 
 def callback(msg):
     
@@ -23,9 +22,12 @@ def main(args=None):
     rclpy.init(args=args)
     node = rclpy.create_node('keyboard_publisher')
     subscription = node.create_subscription(String, 'keyboard', callback, 10)
-
+    
+    rate = node.create_rate(2)
     while rclpy.ok():
         rclpy.spin_once(node)
+        rate.sleep()
+
     node.destroy_node()
     rclpy.shutdown()
 
