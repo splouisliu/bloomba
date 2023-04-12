@@ -10,7 +10,7 @@ def callback(msg):
     print(f'Writing message: {message}')
 
     #Write to serial port
-    if data!="":
+    if msg.data!="":
         ser.write(message.encode('utf-8'))
 
     while ser.in_waiting:  # Or: while ser.inWaiting():
