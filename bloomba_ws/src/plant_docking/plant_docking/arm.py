@@ -2,7 +2,7 @@ import rclpy
 from std_msgs.msg import String
 import serial
 
-ser = serial.Serial('/dev/ttyACM0', 9600)  # Replace '/dev/ttyACM0' with the name of your serial port
+ser = serial.Serial('/dev/ttyACM0', 9600, timeout=0.050)  # Replace '/dev/ttyACM0' with the name of your serial port
 ser.timeout = 1
 
 def callback(msg):
@@ -14,8 +14,9 @@ def callback(msg):
     if data!="":
         ser.write(message.encode('utf-8'))
 
-    line = ser.readline().decode('utf-8')
-    print(f'I read: {line}')
+    while ser.in_waiting:  # Or: while ser.inWaiting():
+        line = ser.readline().decode('utf-8')
+        print(f'I read: {line}')
 
 
 def main(args=None):
