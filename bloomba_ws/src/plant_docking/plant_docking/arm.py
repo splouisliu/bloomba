@@ -1,3 +1,17 @@
+"""
+Procedure to remote watering arm:
+
+source install/local_setup.bash
+ros2 run plant_docking watering_arm 
+ros2 topic pub /keyboard std_msgs/String "data: 'l0.1'" --once
+
+*This will lower watering arm by 10 cm, activate pump, then raise watering arm back up
+*Keep in mind launching watering_arm node will cause pump to activate. Be ready to catch water.
+
+
+"""
+
+
 import rclpy
 from std_msgs.msg import String
 import serial
