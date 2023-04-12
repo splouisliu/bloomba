@@ -11,7 +11,8 @@ def callback(msg):
     print(f'Writing message: {message}')
 
     #Write to serial port
-    ser.write(message.encode('utf-8'))
+    if data!="":
+        ser.write(message.encode('utf-8'))
 
     line = ser.readline().decode('utf-8')
     print(f'I read: {line}')
