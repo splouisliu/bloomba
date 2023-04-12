@@ -23,7 +23,7 @@ def main(args=None):
     node = rclpy.create_node('keyboard_publisher')
     subscription = node.create_subscription(String, 'keyboard', callback, 10)
     
-    rate = node.create_rate(2)
+    rate = node.create_rate(1000)
     while rclpy.ok():
         rclpy.spin_once(node)
         rate.sleep()
