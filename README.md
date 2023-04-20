@@ -32,7 +32,7 @@ You should now have access to two ROS environments via the terminals of the comp
 Refer to the below ROS2 commands for this section:
 1. On both the computer and the Pi, execute all **Basic** commands
 2. On the Pi, execute **SLAM bringup (live robot)**
-3. On the computer, execute **rviz2**
+3. On the computer, execute **rviz2** `ros2 launch bloomba_bringup rviz_launch.py`
 4. Open another terminal and execute *teleop*. Use this to drive the robot around the office to build a map
 5. Once the map is complete, find the slam_toolbox plugin in Rviz2 to save the map. The map will be saved as two files located in the workspace directory of the Pi: `EXAMPLE.pgm` and `EXAMPLE.yaml`.
 6. SLAM is now complete. Close the terminal running the code.
