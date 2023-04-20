@@ -42,21 +42,20 @@ Refer to the below ROS2 commands for this section:
 
 ## How to operate Watering Arm: 
 
-Make sure Arduino is connected to Raspberry Pi and powered from the Create 3 adapter board. On the Raspberry Pi, switch to branch “andrew” on the github repo 
+Make sure Arduino is connected to Raspberry Pi and powered from the Create 3 adapter board. On the Raspberry Pi, switch to branch “andrew” on the github repo.
 
-    1. “cd bloomba/bloomba_ws/” 
+1. `cd bloomba/bloomba_ws/`
 
-    2. “git checkout andrew” 
+2. `git checkout andrew`
 
-    3. “colcon build –packages-select plant_docking” 
+3. `colcon build –packages-select plant_docking`
 
-    4. On the Raspberry Pi, run “ros2 run plant_docking watering_arm”. 
+4. On the Raspberry Pi, run `ros2 run plant_docking watering_arm`.
 
-    5. Switching back to the computer, a separate terminal run “ros2 topic pub /keyboard std_msgs/String "data: 'l0.1'" --once” 
+5. Switching back to the computer, a separate terminal run `ros2 topic pub /keyboard std_msgs/String "data: 'l0.1'" --once`. This will lower the arm by 10 cm and then water the plant. The arm will then move back up by 10 cm. 
 
-    6. This will lower the arm by 10 cm and then water the plant. The arm will then move back up by 10 cm. 
 
-    7. If you want to lower by 20 cm, change “l0.1” to “l0.2”. For 30 cm, change it to “l0.3”. 
+7. If you want to lower by 20 cm, change “l0.1” to “l0.2”. For 30 cm, change it to “l0.3”. 
 
 
 ## ROS2 Commands
