@@ -40,6 +40,24 @@ Refer to the below ROS2 commands for this section:
 8. Using the Nav2 plugin, first estimate the pose of the robot's initial location. A set of green dots should appear. If they don't relaunch the code.
 9. Next, set waypoints via drag-and-drop for the robot to navigate towards!
 
+## How to operate Watering Arm: 
+
+Make sure Arduino is connected to Raspberry Pi and powered from the Create 3 adapter board. On the Raspberry Pi, switch to branch “andrew” on the github repo 
+
+    1. “cd bloomba/bloomba_ws/” 
+
+    2. “git checkout andrew” 
+
+    3. “colcon build –packages-select plant_docking” 
+
+    4. On the Raspberry Pi, run “ros2 run plant_docking watering_arm”. 
+
+    5. Switching back to the computer, a separate terminal run “ros2 topic pub /keyboard std_msgs/String "data: 'l0.1'" --once” 
+
+    6. This will lower the arm by 10 cm and then water the plant. The arm will then move back up by 10 cm. 
+
+    7. If you want to lower by 20 cm, change “l0.1” to “l0.2”. For 30 cm, change it to “l0.3”. 
+
 
 ## ROS2 Commands
 ### Basics
