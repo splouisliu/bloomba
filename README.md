@@ -23,7 +23,7 @@ The onboard Raspberry Pi will execute all packages related to sensor processing,
 4. Setup a Wifi connection on the Pi
 5. Setup git and clone this repository onto the Pi via `git clone git@github.com:splouisliu/bloomba.git`
 6. Find the local IP address of the Pi and SSH into it from the computer
-7. Setup the [Create 3](https://edu.irobot.com/create3-setup) and ensure that it's connected to the same Wifi network as the Pi
+7. Setup the [Create 3](https://edu.irobot.com/create3-setup) and ensure that it's connected to the same Wifi network as the Pi (Can only connect to 2.4GHz Wi-Fi networks).
 
 You should now have access to two ROS environments via the terminals of the computer: the computer itself, and the Pi (SSH'd in)
 
