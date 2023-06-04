@@ -7,6 +7,12 @@
     </a>
 </div>
 
+## See it in action!
+
+Simulation: https://www.youtube.com/watch?v=KVZ-aN0yCDk
+
+Live Run: https://www.youtube.com/watch?v=i21RZtkrJXI
+
 ## Setup
 
 ### Overview
